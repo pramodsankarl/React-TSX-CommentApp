@@ -1,0 +1,2426 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tsd',
+1 verbose cli   '-g' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Pramod\AppData\Roaming\npm\package.json
+6 verbose read json C:\Users\Pramod\AppData\Roaming\npm\package.json
+7 verbose cache add [ 'tsd', null ]
+8 verbose cache add name=undefined spec="tsd" args=["tsd",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'tsd',
+9 verbose parsed url   path: 'tsd',
+9 verbose parsed url   href: 'tsd' }
+10 silly lockFile 6d3ed5a2-tsd tsd
+11 verbose lock tsd C:\Users\Pramod\AppData\Roaming\npm-cache\6d3ed5a2-tsd.lock
+12 silly lockFile 6d3ed5a2-tsd tsd
+13 silly lockFile 6d3ed5a2-tsd tsd
+14 verbose addNamed [ 'tsd', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile ff70fa42-tsd tsd@
+17 verbose lock tsd@ C:\Users\Pramod\AppData\Roaming\npm-cache\ff70fa42-tsd.lock
+18 silly addNameRange { name: 'tsd', range: '', hasData: false }
+19 verbose url raw tsd
+20 verbose url resolving [ 'http://registry.npmjs.org/', './tsd' ]
+21 verbose url resolved http://registry.npmjs.org/tsd
+22 info trying registry request attempt 1 at 21:08:59
+23 http GET http://registry.npmjs.org/tsd
+24 http 200 http://registry.npmjs.org/tsd
+25 silly registry.get cb [ 200,
+25 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     etag: '"5YO46EBB85HSWYDCBL378H7JV"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     'content-length': '80587',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Mon, 02 Nov 2015 02:08:59 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1446430139.255832,VS0,VE82',
+25 silly registry.get     vary: 'Accept' } ]
+26 silly addNameRange number 2 { name: 'tsd', range: '', hasData: true }
+27 silly addNameRange versions [ 'tsd',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.5.5',
+27 silly addNameRange     '0.5.6',
+27 silly addNameRange     '0.5.7',
+27 silly addNameRange     '0.6.0-beta.1',
+27 silly addNameRange     '0.6.0-beta.2',
+27 silly addNameRange     '0.6.0-beta.3',
+27 silly addNameRange     '0.6.0-beta.4',
+27 silly addNameRange     '0.6.0-beta.5',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.6.4-beta',
+27 silly addNameRange     '0.6.4',
+27 silly addNameRange     '0.6.5-beta',
+27 silly addNameRange     '0.6.5-beta.2',
+27 silly addNameRange     '0.6.5' ] ]
+28 verbose addNamed [ 'tsd', '0.6.5' ]
+29 verbose addNamed [ '0.6.5', '0.6.5' ]
+30 silly lockFile 25f4a34c-tsd-0-6-5 tsd@0.6.5
+31 verbose lock tsd@0.6.5 C:\Users\Pramod\AppData\Roaming\npm-cache\25f4a34c-tsd-0-6-5.lock
+32 silly lockFile 73735a15-stry-npmjs-org-tsd-tsd-0-6-5-tgz http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz
+33 verbose lock http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\73735a15-stry-npmjs-org-tsd-tsd-0-6-5-tgz.lock
+34 verbose addRemoteTarball [ 'http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz',
+34 verbose addRemoteTarball   '34a0b64c1db6a70b3860fe4f5571d9d1357421ad' ]
+35 info retry fetch attempt 1 at 21:09:00
+36 verbose fetch to= C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+37 http GET http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz
+38 http 200 http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz
+39 silly shasum updated bytes 65536
+40 silly shasum updated bytes 9797
+41 info shasum 34a0b64c1db6a70b3860fe4f5571d9d1357421ad
+41 info shasum C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+42 verbose tar unpack C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+43 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+44 verbose lock C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package C:\Users\Pramod\AppData\Roaming\npm-cache\7233cfc2-39993-0-9064605301246047-package.lock
+45 silly lockFile 42ed6da9-39993-0-9064605301246047-tmp-tgz C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+46 verbose lock C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\42ed6da9-39993-0-9064605301246047-tmp-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry LICENSE.txt
+53 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 420 ]
+54 silly gunzTarPerm extractEntry build/api.js
+55 silly gunzTarPerm modified mode [ 'build/api.js', 436, 420 ]
+56 silly gunzTarPerm extractEntry build/bootstrap.js
+57 silly gunzTarPerm modified mode [ 'build/bootstrap.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry build/cli.js
+59 silly gunzTarPerm modified mode [ 'build/cli.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry build/getContent.js
+61 silly gunzTarPerm modified mode [ 'build/getContent.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry build/expose/Command.js
+63 silly gunzTarPerm modified mode [ 'build/expose/Command.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry build/expose/ContextHandle.js
+65 silly gunzTarPerm modified mode [ 'build/expose/ContextHandle.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry build/expose/ContextValueHandle.js
+67 silly gunzTarPerm modified mode [ 'build/expose/ContextValueHandle.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry build/expose/Expose.js
+69 silly gunzTarPerm modified mode [ 'build/expose/Expose.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry build/expose/ExposeError.js
+71 silly gunzTarPerm modified mode [ 'build/expose/ExposeError.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry build/expose/Context.js
+73 silly gunzTarPerm modified mode [ 'build/expose/Context.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry build/expose/Group.js
+75 silly gunzTarPerm modified mode [ 'build/expose/Group.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry build/expose/Level.js
+77 silly gunzTarPerm modified mode [ 'build/expose/Level.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry build/expose/Option.js
+79 silly gunzTarPerm modified mode [ 'build/expose/Option.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry build/expose/Result.js
+81 silly gunzTarPerm modified mode [ 'build/expose/Result.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry build/expose/ResultHandle.js
+83 silly gunzTarPerm modified mode [ 'build/expose/ResultHandle.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry build/expose/CommandSorter.js
+85 silly gunzTarPerm modified mode [ 'build/expose/CommandSorter.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry build/expose/sorter.js
+87 silly gunzTarPerm modified mode [ 'build/expose/sorter.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry build/expose/Formatter.js
+89 silly gunzTarPerm modified mode [ 'build/expose/Formatter.js', 436, 420 ]
+90 silly gunzTarPerm extractEntry build/git/GithubRepo.js
+91 silly gunzTarPerm modified mode [ 'build/git/GithubRepo.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry build/git/GithubRepoConfig.js
+93 silly gunzTarPerm modified mode [ 'build/git/GithubRepoConfig.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry build/git/GithubURLs.js
+95 silly gunzTarPerm modified mode [ 'build/git/GithubURLs.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry build/git/gitUtil.js
+97 silly gunzTarPerm modified mode [ 'build/git/gitUtil.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry build/git/loader/GithubAPI.js
+99 silly gunzTarPerm modified mode [ 'build/git/loader/GithubAPI.js', 436, 420 ]
+100 silly gunzTarPerm extractEntry build/git/loader/GithubLoader.js
+101 silly gunzTarPerm modified mode [ 'build/git/loader/GithubLoader.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry build/git/loader/GithubRaw.js
+103 silly gunzTarPerm modified mode [ 'build/git/loader/GithubRaw.js', 436, 420 ]
+104 silly gunzTarPerm extractEntry build/git/model/GitCommitMessage.js
+105 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitMessage.js', 436, 420 ]
+106 silly gunzTarPerm extractEntry build/git/model/GitCommitUser.js
+107 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitUser.js', 436, 420 ]
+108 silly gunzTarPerm extractEntry build/git/model/GithubJSONTreeElem.js
+109 silly gunzTarPerm modified mode [ 'build/git/model/GithubJSONTreeElem.js', 436, 420 ]
+110 silly gunzTarPerm extractEntry build/git/model/GithubRateInfo.js
+111 silly gunzTarPerm modified mode [ 'build/git/model/GithubRateInfo.js', 436, 420 ]
+112 silly gunzTarPerm extractEntry build/git/model/GithubUser.js
+113 silly gunzTarPerm modified mode [ 'build/git/model/GithubUser.js', 436, 420 ]
+114 silly gunzTarPerm extractEntry build/http/CacheInfo.js
+115 silly gunzTarPerm modified mode [ 'build/http/CacheInfo.js', 436, 420 ]
+116 silly gunzTarPerm extractEntry build/http/CacheMode.js
+117 silly gunzTarPerm modified mode [ 'build/http/CacheMode.js', 436, 420 ]
+118 silly gunzTarPerm extractEntry build/http/CacheObject.js
+119 silly gunzTarPerm modified mode [ 'build/http/CacheObject.js', 436, 420 ]
+120 silly gunzTarPerm extractEntry build/http/CacheOpts.js
+121 silly gunzTarPerm modified mode [ 'build/http/CacheOpts.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry build/http/CacheRequest.js
+123 silly gunzTarPerm modified mode [ 'build/http/CacheRequest.js', 436, 420 ]
+124 silly gunzTarPerm extractEntry build/http/CacheStreamLoader.js
+125 silly gunzTarPerm modified mode [ 'build/http/CacheStreamLoader.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry build/http/HTTPCache.js
+127 silly gunzTarPerm modified mode [ 'build/http/HTTPCache.js', 436, 420 ]
+128 silly gunzTarPerm extractEntry build/http/HTTPOpts.js
+129 silly gunzTarPerm modified mode [ 'build/http/HTTPOpts.js', 436, 420 ]
+130 silly gunzTarPerm extractEntry build/http/ResponseInfo.js
+131 silly gunzTarPerm modified mode [ 'build/http/ResponseInfo.js', 436, 420 ]
+132 silly gunzTarPerm extractEntry build/http/types.js
+133 silly gunzTarPerm modified mode [ 'build/http/types.js', 436, 420 ]
+134 silly gunzTarPerm extractEntry build/tsd/API.js
+135 silly gunzTarPerm modified mode [ 'build/tsd/API.js', 436, 420 ]
+136 silly gunzTarPerm extractEntry build/tsd/Options.js
+137 silly gunzTarPerm modified mode [ 'build/tsd/Options.js', 436, 420 ]
+138 silly gunzTarPerm extractEntry build/tsd/CLI.js
+139 silly gunzTarPerm modified mode [ 'build/tsd/CLI.js', 436, 420 ]
+140 silly gunzTarPerm extractEntry build/tsd/cli/CLIPrinter.js
+141 silly gunzTarPerm modified mode [ 'build/tsd/cli/CLIPrinter.js', 436, 420 ]
+142 silly gunzTarPerm extractEntry build/tsd/cli/StyleMap.js
+143 silly gunzTarPerm modified mode [ 'build/tsd/cli/StyleMap.js', 436, 420 ]
+144 silly gunzTarPerm extractEntry build/tsd/cli/TablePrinter.js
+145 silly gunzTarPerm modified mode [ 'build/tsd/cli/TablePrinter.js', 436, 420 ]
+146 silly gunzTarPerm extractEntry build/tsd/cli/addCommon.js
+147 silly gunzTarPerm modified mode [ 'build/tsd/cli/addCommon.js', 436, 420 ]
+148 silly gunzTarPerm extractEntry build/tsd/cli/cliUtils.js
+149 silly gunzTarPerm modified mode [ 'build/tsd/cli/cliUtils.js', 436, 420 ]
+150 silly gunzTarPerm extractEntry build/tsd/cli/const.js
+151 silly gunzTarPerm modified mode [ 'build/tsd/cli/const.js', 436, 420 ]
+152 silly gunzTarPerm extractEntry build/tsd/cli/tracker.js
+153 silly gunzTarPerm modified mode [ 'build/tsd/cli/tracker.js', 436, 420 ]
+154 silly gunzTarPerm extractEntry build/tsd/cli/update.js
+155 silly gunzTarPerm modified mode [ 'build/tsd/cli/update.js', 436, 420 ]
+156 silly gunzTarPerm extractEntry build/tsd/context/Config.js
+157 silly gunzTarPerm modified mode [ 'build/tsd/context/Config.js', 436, 420 ]
+158 silly gunzTarPerm extractEntry build/tsd/context/Const.js
+159 silly gunzTarPerm modified mode [ 'build/tsd/context/Const.js', 436, 420 ]
+160 silly gunzTarPerm extractEntry build/tsd/context/Context.js
+161 silly gunzTarPerm modified mode [ 'build/tsd/context/Context.js', 436, 420 ]
+162 silly gunzTarPerm extractEntry build/tsd/context/InstalledDef.js
+163 silly gunzTarPerm modified mode [ 'build/tsd/context/InstalledDef.js', 436, 420 ]
+164 silly gunzTarPerm extractEntry build/tsd/context/Paths.js
+165 silly gunzTarPerm modified mode [ 'build/tsd/context/Paths.js', 436, 420 ]
+166 silly gunzTarPerm extractEntry build/tsd/util/DateComp.js
+167 silly gunzTarPerm modified mode [ 'build/tsd/util/DateComp.js', 436, 420 ]
+168 silly gunzTarPerm extractEntry build/tsd/util/defUtil.js
+169 silly gunzTarPerm modified mode [ 'build/tsd/util/defUtil.js', 436, 420 ]
+170 silly gunzTarPerm extractEntry build/tsd/util/error-handler.js
+171 silly gunzTarPerm modified mode [ 'build/tsd/util/error-handler.js', 436, 420 ]
+172 silly gunzTarPerm extractEntry build/tsd/logic/ConfigIO.js
+173 silly gunzTarPerm modified mode [ 'build/tsd/logic/ConfigIO.js', 436, 420 ]
+174 silly gunzTarPerm extractEntry build/tsd/logic/ContentLoader.js
+175 silly gunzTarPerm modified mode [ 'build/tsd/logic/ContentLoader.js', 436, 420 ]
+176 silly gunzTarPerm extractEntry build/tsd/logic/Core.js
+177 silly gunzTarPerm modified mode [ 'build/tsd/logic/Core.js', 436, 420 ]
+178 silly gunzTarPerm extractEntry build/tsd/logic/CoreModule.js
+179 silly gunzTarPerm modified mode [ 'build/tsd/logic/CoreModule.js', 436, 420 ]
+180 silly gunzTarPerm extractEntry build/tsd/logic/IndexManager.js
+181 silly gunzTarPerm modified mode [ 'build/tsd/logic/IndexManager.js', 436, 420 ]
+182 silly gunzTarPerm extractEntry build/tsd/logic/InfoParser.js
+183 silly gunzTarPerm modified mode [ 'build/tsd/logic/InfoParser.js', 436, 420 ]
+184 silly gunzTarPerm extractEntry build/tsd/logic/InstallResult.js
+185 silly gunzTarPerm modified mode [ 'build/tsd/logic/InstallResult.js', 436, 420 ]
+186 silly gunzTarPerm extractEntry build/tsd/logic/Installer.js
+187 silly gunzTarPerm modified mode [ 'build/tsd/logic/Installer.js', 436, 420 ]
+188 silly gunzTarPerm extractEntry build/tsd/logic/Resolver.js
+189 silly gunzTarPerm modified mode [ 'build/tsd/logic/Resolver.js', 436, 420 ]
+190 silly gunzTarPerm extractEntry build/tsd/logic/SelectorQuery.js
+191 silly gunzTarPerm modified mode [ 'build/tsd/logic/SelectorQuery.js', 436, 420 ]
+192 silly gunzTarPerm extractEntry build/tsd/schema/config.js
+193 silly gunzTarPerm modified mode [ 'build/tsd/schema/config.js', 436, 420 ]
+194 silly gunzTarPerm extractEntry build/tsd/select/CommitMatcher.js
+195 silly gunzTarPerm modified mode [ 'build/tsd/select/CommitMatcher.js', 436, 420 ]
+196 silly gunzTarPerm extractEntry build/tsd/select/DateMatcher.js
+197 silly gunzTarPerm modified mode [ 'build/tsd/select/DateMatcher.js', 436, 420 ]
+198 silly gunzTarPerm extractEntry build/tsd/select/InfoMatcher.js
+199 silly gunzTarPerm modified mode [ 'build/tsd/select/InfoMatcher.js', 436, 420 ]
+200 silly gunzTarPerm extractEntry build/tsd/select/NameMatcher.js
+201 silly gunzTarPerm modified mode [ 'build/tsd/select/NameMatcher.js', 436, 420 ]
+202 silly gunzTarPerm extractEntry build/tsd/select/Query.js
+203 silly gunzTarPerm modified mode [ 'build/tsd/select/Query.js', 436, 420 ]
+204 silly gunzTarPerm extractEntry build/tsd/select/Selection.js
+205 silly gunzTarPerm modified mode [ 'build/tsd/select/Selection.js', 436, 420 ]
+206 silly gunzTarPerm extractEntry build/tsd/select/VersionMatcher.js
+207 silly gunzTarPerm modified mode [ 'build/tsd/select/VersionMatcher.js', 436, 420 ]
+208 silly gunzTarPerm extractEntry build/tsd/support/AuthorInfo.js
+209 silly gunzTarPerm modified mode [ 'build/tsd/support/AuthorInfo.js', 436, 420 ]
+210 silly gunzTarPerm extractEntry build/tsd/support/Bundle.js
+211 silly gunzTarPerm modified mode [ 'build/tsd/support/Bundle.js', 436, 420 ]
+212 silly gunzTarPerm extractEntry build/tsd/support/BundleChange.js
+213 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleChange.js', 436, 420 ]
+214 silly gunzTarPerm extractEntry build/tsd/support/BundleManager.js
+215 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleManager.js', 436, 420 ]
+216 silly gunzTarPerm extractEntry build/tsd/support/PackageDefinition.js
+217 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageDefinition.js', 436, 420 ]
+218 silly gunzTarPerm extractEntry build/tsd/support/PackageLinker.js
+219 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageLinker.js', 436, 420 ]
+220 silly gunzTarPerm extractEntry build/tsd/data/Def.js
+221 silly gunzTarPerm modified mode [ 'build/tsd/data/Def.js', 436, 420 ]
+222 silly gunzTarPerm extractEntry build/tsd/data/DefBlob.js
+223 silly gunzTarPerm modified mode [ 'build/tsd/data/DefBlob.js', 436, 420 ]
+224 silly gunzTarPerm extractEntry build/tsd/data/DefCommit.js
+225 silly gunzTarPerm modified mode [ 'build/tsd/data/DefCommit.js', 436, 420 ]
+226 silly gunzTarPerm extractEntry build/tsd/data/DefIndex.js
+227 silly gunzTarPerm modified mode [ 'build/tsd/data/DefIndex.js', 436, 420 ]
+228 silly gunzTarPerm extractEntry build/tsd/data/DefInfo.js
+229 silly gunzTarPerm modified mode [ 'build/tsd/data/DefInfo.js', 436, 420 ]
+230 silly gunzTarPerm extractEntry build/tsd/data/DefVersion.js
+231 silly gunzTarPerm modified mode [ 'build/tsd/data/DefVersion.js', 436, 420 ]
+232 silly gunzTarPerm extractEntry build/xm/assert.js
+233 silly gunzTarPerm modified mode [ 'build/xm/assert.js', 436, 420 ]
+234 silly gunzTarPerm extractEntry build/xm/collection.js
+235 silly gunzTarPerm modified mode [ 'build/xm/collection.js', 436, 420 ]
+236 silly gunzTarPerm extractEntry build/xm/dateUtils.js
+237 silly gunzTarPerm modified mode [ 'build/xm/dateUtils.js', 436, 420 ]
+238 silly gunzTarPerm extractEntry build/xm/encode.js
+239 silly gunzTarPerm modified mode [ 'build/xm/encode.js', 436, 420 ]
+240 silly gunzTarPerm extractEntry build/xm/fileIO.js
+241 silly gunzTarPerm modified mode [ 'build/xm/fileIO.js', 436, 420 ]
+242 silly gunzTarPerm extractEntry build/xm/assertVar.js
+243 silly gunzTarPerm modified mode [ 'build/xm/assertVar.js', 436, 420 ]
+244 silly gunzTarPerm extractEntry build/xm/inspect.js
+245 silly gunzTarPerm modified mode [ 'build/xm/inspect.js', 436, 420 ]
+246 silly gunzTarPerm extractEntry build/xm/stringUtils.js
+247 silly gunzTarPerm modified mode [ 'build/xm/stringUtils.js', 436, 420 ]
+248 silly gunzTarPerm extractEntry build/xm/objectUtils.js
+249 silly gunzTarPerm modified mode [ 'build/xm/objectUtils.js', 436, 420 ]
+250 silly gunzTarPerm extractEntry build/xm/parseString.js
+251 silly gunzTarPerm modified mode [ 'build/xm/parseString.js', 436, 420 ]
+252 silly gunzTarPerm extractEntry build/xm/typeOf.js
+253 silly gunzTarPerm modified mode [ 'build/xm/typeOf.js', 436, 420 ]
+254 silly gunzTarPerm extractEntry build/xm/hash.js
+255 silly gunzTarPerm modified mode [ 'build/xm/hash.js', 436, 420 ]
+256 silly gunzTarPerm extractEntry build/xm/lib/ActionMap.js
+257 silly gunzTarPerm modified mode [ 'build/xm/lib/ActionMap.js', 436, 420 ]
+258 silly gunzTarPerm extractEntry build/xm/lib/CodeStyle.js
+259 silly gunzTarPerm modified mode [ 'build/xm/lib/CodeStyle.js', 436, 420 ]
+260 silly gunzTarPerm extractEntry build/xm/lib/JSONPointer.js
+261 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONPointer.js', 436, 420 ]
+262 silly gunzTarPerm extractEntry build/xm/lib/JSONStabilizer.js
+263 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONStabilizer.js', 436, 420 ]
+264 silly gunzTarPerm extractEntry build/xm/lib/PackageJSON.js
+265 silly gunzTarPerm modified mode [ 'build/xm/lib/PackageJSON.js', 436, 420 ]
+266 silly gunzTarPerm extractEntry build/xm/lib/StatCounter.js
+267 silly gunzTarPerm modified mode [ 'build/xm/lib/StatCounter.js', 436, 420 ]
+268 silly gunzTarPerm extractEntry build/xm/lib/StyledOut.js
+269 silly gunzTarPerm modified mode [ 'build/xm/lib/StyledOut.js', 436, 420 ]
+270 silly gunzTarPerm extractEntry build/xm/lib/URLManager.js
+271 silly gunzTarPerm modified mode [ 'build/xm/lib/URLManager.js', 436, 420 ]
+272 silly gunzTarPerm extractEntry build/xm/lib/eventLog.js
+273 silly gunzTarPerm modified mode [ 'build/xm/lib/eventLog.js', 436, 420 ]
+274 silly gunzTarPerm extractEntry conf/settings.json
+275 silly gunzTarPerm modified mode [ 'conf/settings.json', 436, 420 ]
+276 silly gunzTarPerm extractEntry tsconfig.json
+277 silly gunzTarPerm modified mode [ 'tsconfig.json', 436, 420 ]
+278 verbose read json C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package\package.json
+279 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+280 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+281 silly lockFile 42ed6da9-39993-0-9064605301246047-tmp-tgz C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+282 silly lockFile 42ed6da9-39993-0-9064605301246047-tmp-tgz C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\tmp.tgz
+283 verbose from cache C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package\package.json
+284 verbose tar pack [ 'C:\\Users\\Pramod\\AppData\\Roaming\\npm-cache\\tsd\\0.6.5\\package.tgz',
+284 verbose tar pack   'C:\\Users\\Pramod\\AppData\\Local\\Temp\\npm-19892\\1446430139993-0.9064605301246047\\package' ]
+285 verbose tarball C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+286 verbose folder C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+287 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+288 verbose lock C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package C:\Users\Pramod\AppData\Roaming\npm-cache\7233cfc2-39993-0-9064605301246047-package.lock
+289 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+290 verbose lock C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\69349f92--npm-cache-tsd-0-6-5-package-tgz.lock
+291 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+292 silly lockFile 7233cfc2-39993-0-9064605301246047-package C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430139993-0.9064605301246047\package
+293 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+294 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+295 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+296 verbose lock C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package C:\Users\Pramod\AppData\Roaming\npm-cache\e5c777a7-ming-npm-cache-tsd-0-6-5-package.lock
+297 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+298 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+299 verbose tar unpack C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+300 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+301 verbose lock C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package C:\Users\Pramod\AppData\Roaming\npm-cache\e5c777a7-ming-npm-cache-tsd-0-6-5-package.lock
+302 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+303 verbose lock C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\69349f92--npm-cache-tsd-0-6-5-package-tgz.lock
+304 silly gunzTarPerm modes [ '755', '644' ]
+305 silly gunzTarPerm extractEntry package.json
+306 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+307 silly gunzTarPerm extractEntry README.md
+308 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+309 silly gunzTarPerm extractEntry build/api.js
+310 silly gunzTarPerm modified mode [ 'build/api.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry build/bootstrap.js
+312 silly gunzTarPerm modified mode [ 'build/bootstrap.js', 438, 420 ]
+313 silly gunzTarPerm extractEntry build/cli.js
+314 silly gunzTarPerm modified mode [ 'build/cli.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry build/getContent.js
+316 silly gunzTarPerm modified mode [ 'build/getContent.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry build/expose/Command.js
+318 silly gunzTarPerm modified mode [ 'build/expose/Command.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry build/expose/ContextHandle.js
+320 silly gunzTarPerm modified mode [ 'build/expose/ContextHandle.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry build/expose/ContextValueHandle.js
+322 silly gunzTarPerm modified mode [ 'build/expose/ContextValueHandle.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry build/expose/Expose.js
+324 silly gunzTarPerm modified mode [ 'build/expose/Expose.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry build/expose/ExposeError.js
+326 silly gunzTarPerm modified mode [ 'build/expose/ExposeError.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry build/expose/Context.js
+328 silly gunzTarPerm modified mode [ 'build/expose/Context.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry build/expose/Group.js
+330 silly gunzTarPerm modified mode [ 'build/expose/Group.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry build/expose/Level.js
+332 silly gunzTarPerm modified mode [ 'build/expose/Level.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry build/expose/Option.js
+334 silly gunzTarPerm modified mode [ 'build/expose/Option.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry build/expose/Result.js
+336 silly gunzTarPerm modified mode [ 'build/expose/Result.js', 438, 420 ]
+337 silly gunzTarPerm extractEntry build/expose/ResultHandle.js
+338 silly gunzTarPerm modified mode [ 'build/expose/ResultHandle.js', 438, 420 ]
+339 silly gunzTarPerm extractEntry build/expose/CommandSorter.js
+340 silly gunzTarPerm modified mode [ 'build/expose/CommandSorter.js', 438, 420 ]
+341 silly gunzTarPerm extractEntry build/expose/sorter.js
+342 silly gunzTarPerm modified mode [ 'build/expose/sorter.js', 438, 420 ]
+343 silly gunzTarPerm extractEntry build/expose/Formatter.js
+344 silly gunzTarPerm modified mode [ 'build/expose/Formatter.js', 438, 420 ]
+345 silly gunzTarPerm extractEntry build/git/GithubRepo.js
+346 silly gunzTarPerm modified mode [ 'build/git/GithubRepo.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry build/git/GithubRepoConfig.js
+348 silly gunzTarPerm modified mode [ 'build/git/GithubRepoConfig.js', 438, 420 ]
+349 silly gunzTarPerm extractEntry build/git/GithubURLs.js
+350 silly gunzTarPerm modified mode [ 'build/git/GithubURLs.js', 438, 420 ]
+351 silly gunzTarPerm extractEntry build/git/gitUtil.js
+352 silly gunzTarPerm modified mode [ 'build/git/gitUtil.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry build/git/loader/GithubAPI.js
+354 silly gunzTarPerm modified mode [ 'build/git/loader/GithubAPI.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry build/git/loader/GithubLoader.js
+356 silly gunzTarPerm modified mode [ 'build/git/loader/GithubLoader.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry build/git/loader/GithubRaw.js
+358 silly gunzTarPerm modified mode [ 'build/git/loader/GithubRaw.js', 438, 420 ]
+359 silly gunzTarPerm extractEntry build/git/model/GitCommitMessage.js
+360 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitMessage.js', 438, 420 ]
+361 silly gunzTarPerm extractEntry build/git/model/GitCommitUser.js
+362 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitUser.js', 438, 420 ]
+363 silly gunzTarPerm extractEntry build/git/model/GithubJSONTreeElem.js
+364 silly gunzTarPerm modified mode [ 'build/git/model/GithubJSONTreeElem.js', 438, 420 ]
+365 silly gunzTarPerm extractEntry build/git/model/GithubRateInfo.js
+366 silly gunzTarPerm modified mode [ 'build/git/model/GithubRateInfo.js', 438, 420 ]
+367 silly gunzTarPerm extractEntry build/git/model/GithubUser.js
+368 silly gunzTarPerm modified mode [ 'build/git/model/GithubUser.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry build/http/CacheInfo.js
+370 silly gunzTarPerm modified mode [ 'build/http/CacheInfo.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry build/http/CacheMode.js
+372 silly gunzTarPerm modified mode [ 'build/http/CacheMode.js', 438, 420 ]
+373 silly gunzTarPerm extractEntry build/http/CacheObject.js
+374 silly gunzTarPerm modified mode [ 'build/http/CacheObject.js', 438, 420 ]
+375 silly gunzTarPerm extractEntry build/http/CacheOpts.js
+376 silly gunzTarPerm modified mode [ 'build/http/CacheOpts.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry build/http/CacheRequest.js
+378 silly gunzTarPerm modified mode [ 'build/http/CacheRequest.js', 438, 420 ]
+379 silly gunzTarPerm extractEntry build/http/CacheStreamLoader.js
+380 silly gunzTarPerm modified mode [ 'build/http/CacheStreamLoader.js', 438, 420 ]
+381 silly gunzTarPerm extractEntry build/http/HTTPCache.js
+382 silly gunzTarPerm modified mode [ 'build/http/HTTPCache.js', 438, 420 ]
+383 silly gunzTarPerm extractEntry build/http/HTTPOpts.js
+384 silly gunzTarPerm modified mode [ 'build/http/HTTPOpts.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry build/http/ResponseInfo.js
+386 silly gunzTarPerm modified mode [ 'build/http/ResponseInfo.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry build/http/types.js
+388 silly gunzTarPerm modified mode [ 'build/http/types.js', 438, 420 ]
+389 silly gunzTarPerm extractEntry build/tsd/API.js
+390 silly gunzTarPerm modified mode [ 'build/tsd/API.js', 438, 420 ]
+391 silly gunzTarPerm extractEntry build/tsd/CLI.js
+392 silly gunzTarPerm modified mode [ 'build/tsd/CLI.js', 438, 420 ]
+393 silly gunzTarPerm extractEntry build/tsd/Options.js
+394 silly gunzTarPerm modified mode [ 'build/tsd/Options.js', 438, 420 ]
+395 silly gunzTarPerm extractEntry build/tsd/context/Config.js
+396 silly gunzTarPerm modified mode [ 'build/tsd/context/Config.js', 438, 420 ]
+397 silly gunzTarPerm extractEntry build/tsd/context/Const.js
+398 silly gunzTarPerm modified mode [ 'build/tsd/context/Const.js', 438, 420 ]
+399 silly gunzTarPerm extractEntry build/tsd/context/Context.js
+400 silly gunzTarPerm modified mode [ 'build/tsd/context/Context.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry build/tsd/context/InstalledDef.js
+402 silly gunzTarPerm modified mode [ 'build/tsd/context/InstalledDef.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry build/tsd/context/Paths.js
+404 silly gunzTarPerm modified mode [ 'build/tsd/context/Paths.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry build/tsd/data/Def.js
+406 silly gunzTarPerm modified mode [ 'build/tsd/data/Def.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry build/tsd/data/DefBlob.js
+408 silly gunzTarPerm modified mode [ 'build/tsd/data/DefBlob.js', 438, 420 ]
+409 silly gunzTarPerm extractEntry build/tsd/data/DefCommit.js
+410 silly gunzTarPerm modified mode [ 'build/tsd/data/DefCommit.js', 438, 420 ]
+411 silly gunzTarPerm extractEntry build/tsd/data/DefIndex.js
+412 silly gunzTarPerm modified mode [ 'build/tsd/data/DefIndex.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry build/tsd/data/DefInfo.js
+414 silly gunzTarPerm modified mode [ 'build/tsd/data/DefInfo.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry build/tsd/data/DefVersion.js
+416 silly gunzTarPerm modified mode [ 'build/tsd/data/DefVersion.js', 438, 420 ]
+417 silly gunzTarPerm extractEntry build/tsd/cli/addCommon.js
+418 silly gunzTarPerm modified mode [ 'build/tsd/cli/addCommon.js', 438, 420 ]
+419 silly gunzTarPerm extractEntry build/tsd/cli/CLIPrinter.js
+420 silly gunzTarPerm modified mode [ 'build/tsd/cli/CLIPrinter.js', 438, 420 ]
+421 silly gunzTarPerm extractEntry build/tsd/cli/cliUtils.js
+422 silly gunzTarPerm modified mode [ 'build/tsd/cli/cliUtils.js', 438, 420 ]
+423 silly gunzTarPerm extractEntry build/tsd/cli/const.js
+424 silly gunzTarPerm modified mode [ 'build/tsd/cli/const.js', 438, 420 ]
+425 silly gunzTarPerm extractEntry build/tsd/cli/StyleMap.js
+426 silly gunzTarPerm modified mode [ 'build/tsd/cli/StyleMap.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry build/tsd/cli/TablePrinter.js
+428 silly gunzTarPerm modified mode [ 'build/tsd/cli/TablePrinter.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry build/tsd/cli/tracker.js
+430 silly gunzTarPerm modified mode [ 'build/tsd/cli/tracker.js', 438, 420 ]
+431 silly gunzTarPerm extractEntry build/tsd/cli/update.js
+432 silly gunzTarPerm modified mode [ 'build/tsd/cli/update.js', 438, 420 ]
+433 silly gunzTarPerm extractEntry build/tsd/util/DateComp.js
+434 silly gunzTarPerm modified mode [ 'build/tsd/util/DateComp.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry build/tsd/util/defUtil.js
+436 silly gunzTarPerm modified mode [ 'build/tsd/util/defUtil.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry build/tsd/util/error-handler.js
+438 silly gunzTarPerm modified mode [ 'build/tsd/util/error-handler.js', 438, 420 ]
+439 silly gunzTarPerm extractEntry build/tsd/schema/config.js
+440 silly gunzTarPerm modified mode [ 'build/tsd/schema/config.js', 438, 420 ]
+441 silly gunzTarPerm extractEntry build/tsd/select/CommitMatcher.js
+442 silly gunzTarPerm modified mode [ 'build/tsd/select/CommitMatcher.js', 438, 420 ]
+443 silly gunzTarPerm extractEntry build/tsd/select/DateMatcher.js
+444 silly gunzTarPerm modified mode [ 'build/tsd/select/DateMatcher.js', 438, 420 ]
+445 silly gunzTarPerm extractEntry build/tsd/select/InfoMatcher.js
+446 silly gunzTarPerm modified mode [ 'build/tsd/select/InfoMatcher.js', 438, 420 ]
+447 silly gunzTarPerm extractEntry build/tsd/select/NameMatcher.js
+448 silly gunzTarPerm modified mode [ 'build/tsd/select/NameMatcher.js', 438, 420 ]
+449 silly gunzTarPerm extractEntry build/tsd/select/Query.js
+450 silly gunzTarPerm modified mode [ 'build/tsd/select/Query.js', 438, 420 ]
+451 silly gunzTarPerm extractEntry build/tsd/select/Selection.js
+452 silly gunzTarPerm modified mode [ 'build/tsd/select/Selection.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry build/tsd/select/VersionMatcher.js
+454 silly gunzTarPerm modified mode [ 'build/tsd/select/VersionMatcher.js', 438, 420 ]
+455 silly gunzTarPerm extractEntry build/tsd/support/AuthorInfo.js
+456 silly gunzTarPerm modified mode [ 'build/tsd/support/AuthorInfo.js', 438, 420 ]
+457 silly gunzTarPerm extractEntry build/tsd/support/Bundle.js
+458 silly gunzTarPerm modified mode [ 'build/tsd/support/Bundle.js', 438, 420 ]
+459 silly gunzTarPerm extractEntry build/tsd/support/BundleChange.js
+460 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleChange.js', 438, 420 ]
+461 silly gunzTarPerm extractEntry build/tsd/support/BundleManager.js
+462 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleManager.js', 438, 420 ]
+463 silly gunzTarPerm extractEntry build/tsd/support/PackageDefinition.js
+464 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageDefinition.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry build/tsd/support/PackageLinker.js
+466 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageLinker.js', 438, 420 ]
+467 silly gunzTarPerm extractEntry build/tsd/logic/ConfigIO.js
+468 silly gunzTarPerm modified mode [ 'build/tsd/logic/ConfigIO.js', 438, 420 ]
+469 silly gunzTarPerm extractEntry build/tsd/logic/ContentLoader.js
+470 silly gunzTarPerm modified mode [ 'build/tsd/logic/ContentLoader.js', 438, 420 ]
+471 silly gunzTarPerm extractEntry build/tsd/logic/Core.js
+472 silly gunzTarPerm modified mode [ 'build/tsd/logic/Core.js', 438, 420 ]
+473 silly gunzTarPerm extractEntry build/tsd/logic/CoreModule.js
+474 silly gunzTarPerm modified mode [ 'build/tsd/logic/CoreModule.js', 438, 420 ]
+475 silly gunzTarPerm extractEntry build/tsd/logic/IndexManager.js
+476 silly gunzTarPerm modified mode [ 'build/tsd/logic/IndexManager.js', 438, 420 ]
+477 silly gunzTarPerm extractEntry build/tsd/logic/InfoParser.js
+478 silly gunzTarPerm modified mode [ 'build/tsd/logic/InfoParser.js', 438, 420 ]
+479 silly gunzTarPerm extractEntry build/tsd/logic/Installer.js
+480 silly gunzTarPerm modified mode [ 'build/tsd/logic/Installer.js', 438, 420 ]
+481 silly gunzTarPerm extractEntry build/tsd/logic/InstallResult.js
+482 silly gunzTarPerm modified mode [ 'build/tsd/logic/InstallResult.js', 438, 420 ]
+483 silly gunzTarPerm extractEntry build/tsd/logic/Resolver.js
+484 silly gunzTarPerm modified mode [ 'build/tsd/logic/Resolver.js', 438, 420 ]
+485 silly gunzTarPerm extractEntry build/tsd/logic/SelectorQuery.js
+486 silly gunzTarPerm modified mode [ 'build/tsd/logic/SelectorQuery.js', 438, 420 ]
+487 silly gunzTarPerm extractEntry build/xm/assert.js
+488 silly gunzTarPerm modified mode [ 'build/xm/assert.js', 438, 420 ]
+489 silly gunzTarPerm extractEntry build/xm/collection.js
+490 silly gunzTarPerm modified mode [ 'build/xm/collection.js', 438, 420 ]
+491 silly gunzTarPerm extractEntry build/xm/dateUtils.js
+492 silly gunzTarPerm modified mode [ 'build/xm/dateUtils.js', 438, 420 ]
+493 silly gunzTarPerm extractEntry build/xm/encode.js
+494 silly gunzTarPerm modified mode [ 'build/xm/encode.js', 438, 420 ]
+495 silly gunzTarPerm extractEntry build/xm/fileIO.js
+496 silly gunzTarPerm modified mode [ 'build/xm/fileIO.js', 438, 420 ]
+497 silly gunzTarPerm extractEntry build/xm/assertVar.js
+498 silly gunzTarPerm modified mode [ 'build/xm/assertVar.js', 438, 420 ]
+499 silly gunzTarPerm extractEntry build/xm/inspect.js
+500 silly gunzTarPerm modified mode [ 'build/xm/inspect.js', 438, 420 ]
+501 silly gunzTarPerm extractEntry build/xm/stringUtils.js
+502 silly gunzTarPerm modified mode [ 'build/xm/stringUtils.js', 438, 420 ]
+503 silly gunzTarPerm extractEntry build/xm/objectUtils.js
+504 silly gunzTarPerm modified mode [ 'build/xm/objectUtils.js', 438, 420 ]
+505 silly gunzTarPerm extractEntry build/xm/parseString.js
+506 silly gunzTarPerm modified mode [ 'build/xm/parseString.js', 438, 420 ]
+507 silly gunzTarPerm extractEntry build/xm/typeOf.js
+508 silly gunzTarPerm modified mode [ 'build/xm/typeOf.js', 438, 420 ]
+509 silly gunzTarPerm extractEntry build/xm/hash.js
+510 silly gunzTarPerm modified mode [ 'build/xm/hash.js', 438, 420 ]
+511 silly gunzTarPerm extractEntry build/xm/lib/ActionMap.js
+512 silly gunzTarPerm modified mode [ 'build/xm/lib/ActionMap.js', 438, 420 ]
+513 silly gunzTarPerm extractEntry build/xm/lib/CodeStyle.js
+514 silly gunzTarPerm modified mode [ 'build/xm/lib/CodeStyle.js', 438, 420 ]
+515 silly gunzTarPerm extractEntry build/xm/lib/eventLog.js
+516 silly gunzTarPerm modified mode [ 'build/xm/lib/eventLog.js', 438, 420 ]
+517 silly gunzTarPerm extractEntry build/xm/lib/JSONPointer.js
+518 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONPointer.js', 438, 420 ]
+519 silly gunzTarPerm extractEntry build/xm/lib/JSONStabilizer.js
+520 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONStabilizer.js', 438, 420 ]
+521 silly gunzTarPerm extractEntry build/xm/lib/PackageJSON.js
+522 silly gunzTarPerm modified mode [ 'build/xm/lib/PackageJSON.js', 438, 420 ]
+523 silly gunzTarPerm extractEntry build/xm/lib/StatCounter.js
+524 silly gunzTarPerm modified mode [ 'build/xm/lib/StatCounter.js', 438, 420 ]
+525 silly gunzTarPerm extractEntry build/xm/lib/StyledOut.js
+526 silly gunzTarPerm modified mode [ 'build/xm/lib/StyledOut.js', 438, 420 ]
+527 silly gunzTarPerm extractEntry build/xm/lib/URLManager.js
+528 silly gunzTarPerm modified mode [ 'build/xm/lib/URLManager.js', 438, 420 ]
+529 silly gunzTarPerm extractEntry conf/settings.json
+530 silly gunzTarPerm modified mode [ 'conf/settings.json', 438, 420 ]
+531 silly gunzTarPerm extractEntry LICENSE.txt
+532 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+533 silly gunzTarPerm extractEntry tsconfig.json
+534 silly gunzTarPerm modified mode [ 'tsconfig.json', 438, 420 ]
+535 verbose read json C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package\package.json
+536 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+537 silly lockFile e5c777a7-ming-npm-cache-tsd-0-6-5-package C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package
+538 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+539 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+540 silly shasum updated bytes 65536
+541 silly shasum updated bytes 9964
+542 info shasum cfda2fb6f2ea004ac7202d4d1ef665230ff8d02b
+542 info shasum C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+543 verbose from cache C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package\package.json
+544 verbose chmod C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz 644
+545 silly chown skipping for windows C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+546 silly lockFile 73735a15-stry-npmjs-org-tsd-tsd-0-6-5-tgz http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz
+547 silly lockFile 73735a15-stry-npmjs-org-tsd-tsd-0-6-5-tgz http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz
+548 silly lockFile 25f4a34c-tsd-0-6-5 tsd@0.6.5
+549 silly lockFile 25f4a34c-tsd-0-6-5 tsd@0.6.5
+550 silly lockFile ff70fa42-tsd tsd@
+551 silly lockFile ff70fa42-tsd tsd@
+552 silly resolved [ { name: 'tsd',
+552 silly resolved     version: '0.6.5',
+552 silly resolved     description: 'TypeScript Definition manager for DefinitelyTyped',
+552 silly resolved     keywords: [ 'typescript', 'definition', 'package', 'manager' ],
+552 silly resolved     homepage: 'https://github.com/DefinitelyTyped/tsd',
+552 silly resolved     repository:
+552 silly resolved      { type: 'git',
+552 silly resolved        url: 'https://github.com/DefinitelyTyped/tsd.git' },
+552 silly resolved     author:
+552 silly resolved      { name: 'Bart van der Schoor',
+552 silly resolved        url: 'https://github.com/Bartvds' },
+552 silly resolved     contributors: [ [Object] ],
+552 silly resolved     licenses: [ [Object] ],
+552 silly resolved     bugs: { url: 'https://github.com/DefinitelyTyped/tsd/issues' },
+552 silly resolved     preferGlobal: true,
+552 silly resolved     engines: { node: '>= 0.10.0' },
+552 silly resolved     main: './build/api.js',
+552 silly resolved     bin: { tsd: './build/cli.js' },
+552 silly resolved     scripts: { test: 'grunt test', prepublish: 'grunt pre_publish' },
+552 silly resolved     dependencies:
+552 silly resolved      { 'assertion-error': '1.0.0',
+552 silly resolved        bl: '^0.9.3',
+552 silly resolved        bluebird: '~1.2.4',
+552 silly resolved        chalk: '^1.0.0',
+552 silly resolved        colors: '^1.1.0',
+552 silly resolved        'deep-freeze': '0.0.1',
+552 silly resolved        'definition-header': '~0.1.0',
+552 silly resolved        'detect-indent': '^0.2.0',
+552 silly resolved        diff: '^1.4.0',
+552 silly resolved        'event-stream': '~3.1.5',
+552 silly resolved        exit: '~0.1.2',
+552 silly resolved        glob: '^4.0.6',
+552 silly resolved        joi: '^4.7.0',
+552 silly resolved        'joi-assert': '0.0.3',
+552 silly resolved        jsesc: '^0.5.0',
+552 silly resolved        'json-pointer': '^0.2.2',
+552 silly resolved        'lazy.js': '~0.3.2',
+552 silly resolved        'lru-cache': '~2.5.0',
+552 silly resolved        minimatch: '^1.0.0',
+552 silly resolved        minimist: '^1.1.0',
+552 silly resolved        ministyle: '~0.1.3',
+552 silly resolved        minitable: '0.0.4',
+552 silly resolved        miniwrite: '~0.1.3',
+552 silly resolved        mkdirp: '~0.5.0',
+552 silly resolved        open: '~0.0.5',
+552 silly resolved        request: '^2.45.0',
+552 silly resolved        rimraf: '~2.2.8',
+552 silly resolved        semver: '^4.3.1',
+552 silly resolved        'type-detect': '~0.1.2',
+552 silly resolved        'universal-analytics': '~0.3.4',
+552 silly resolved        'update-notifier': '^0.2.2',
+552 silly resolved        'uri-templates': '~0.1.5',
+552 silly resolved        uuid: '^2.0.1',
+552 silly resolved        verror: '~1.4.0' },
+552 silly resolved     devDependencies:
+552 silly resolved      { chai: '~1.9.1',
+552 silly resolved        'chai-as-promised': '~4.1.1',
+552 silly resolved        'chai-fs': '^0.1.0',
+552 silly resolved        'chai-fuzzy': '~1.4.0',
+552 silly resolved        'chai-shallow-deep-equal': '0.0.3',
+552 silly resolved        grunt: '~0.4.4',
+552 silly resolved        'grunt-contrib-clean': '^0.6.0',
+552 silly resolved        'grunt-contrib-connect': '~0.8.0',
+552 silly resolved        'grunt-contrib-copy': '^0.6.0',
+552 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+552 silly resolved        'grunt-mocha-test': '^0.12.1',
+552 silly resolved        'grunt-regex-replace': '~0.2.5',
+552 silly resolved        'grunt-shell': '^1.1.1',
+552 silly resolved        'grunt-todos': '~0.3.0',
+552 silly resolved        'grunt-ts': '4.1.0',
+552 silly resolved        'grunt-ts-clean': '~0.2.0',
+552 silly resolved        'grunt-tslint': 'git+https://github.com/Bartvds/grunt-tslint#feature/multi',
+552 silly resolved        'grunt-tv4': '~0.4.0',
+552 silly resolved        'gruntfile-gtx': '^0.3.0',
+552 silly resolved        'jshint-path-reporter': '~0.1',
+552 silly resolved        mocha: '^1.21.4',
+552 silly resolved        'mocha-unfunk-reporter': '^0.4.0',
+552 silly resolved        ncp: '^1.0.1',
+552 silly resolved        'package.json-schema': '~0.2.0',
+552 silly resolved        'source-map-support': '~0.2.6',
+552 silly resolved        'time-grunt': '^1.0.0',
+552 silly resolved        'tslint-path-formatter': '~0.1.1',
+552 silly resolved        typescript: '1.5.3',
+552 silly resolved        'dir-compare': '^0.0.2' },
+552 silly resolved     readme: '# TSD\n\n[![Build Status](https://travis-ci.org/DefinitelyTyped/tsd.svg?branch=master)](https://travis-ci.org/DefinitelyTyped/tsd) [![Build status](https://ci.appveyor.com/api/projects/status/v4w7p3qvcuxhte33/branch/master?svg=true)](https://ci.appveyor.com/project/Diullei/tsd/branch/master) [![NPM version](https://badge.fury.io/js/tsd.svg)](http://badge.fury.io/js/tsd) [![Dependency Status](https://david-dm.org/DefinitelyTyped/tsd.svg)](https://david-dm.org/DefinitelyTyped/tsd) [![devDependency Status](https://david-dm.org/DefinitelyTyped/tsd/dev-status.svg)](https://david-dm.org/DefinitelyTyped/tsd#info=devDependencies)\n\n> TypeScript Definition manager for DefinitelyTyped\n\nTSD is a package manager to search and install [TypeScript](http://www.typescriptlang.org/) definition files directly from the community driven [DefinitelyTyped](https://github.com/borisyankov/DefinitelyTyped) repository.\n\n\n## Install\n\nInstall global using [node](http://nodejs.org/) using [npm](https://npmjs.org/).:\n\n````bash\nnpm install tsd -g\n````\n\nFor previews and history check the [release tags](https://github.com/DefinitelyTyped/tsd/releases).\n\n## Commands\n\n### Quick start\n\n````bash\n$ tsd install jquery --save\n\n$ tsd query angular -ir\n$ tsd query angularjs/\n\n$ tsd query jquery.*\n# glob on mac/linux\n$ tsd query "jquery.*"\n\n#install all definitions from tsd.json\n$ tsd install\n````\n\n### Commands\n\nGlobal `tsd` binary with help.\n\n````bash\n$ tsd\n$ tsd -h\n$ tsd --help\n$ tsd --version\n````\n\n[![$ tsd -h](https://raw.github.com/DefinitelyTyped/tsd/master/media/capture/help-small.png)](https://raw.github.com/DefinitelyTyped/tsd/master/media/capture/help.png)\n\nSometimes it looks like this:\n\n* [`$ tsd --help`](https://raw.github.com/DefinitelyTyped/tsd/master/media/capture/help.png)\n* [`$ tsd query async --info --history --action install`](https://raw.github.com/DefinitelyTyped/tsd/master/media/capture/async.png)\n* [`$ tsd query angular* --resolve`](https://raw.github.com/DefinitelyTyped/tsd/master/media/capture/angular.png)\n\n\n### Init\n\nCreate a new `tsd.json` and `tsd.d.ts`. This is not required but useful to init valid project references before starting to add (external) code, or if you want to edit the config.\n\n````bash\n$ tsd init\n````\n\n\n#### Search\n\nMinimal query for `d3`:\n\n````bash\n$ tsd query d3\n````\n\nGet some info about `jquery`:\n\n````bash\n$ tsd query jquery --info --resolve\n$ tsd query jquery -i -r\n$ tsd query jquery -ir\n````\n\nSearch for `jquery` plugins:\n\n````bash\n$ tsd query */jquery.*\n````\n\nHint: if you are using Linux or Mac OS X, use quotes to glob:\n\n````bash\n$ tsd query "*/jquery.*"\n````\n\nView `mocha` history:\n\n````bash\n$ tsd query mocha --history\n$ tsd query mocha -y\n````\n\nList *everything*:\n\n````bash\n$ tsd query *\n````\n\nNote: more info on queries can be found futher-on in this readme.\n\n#### Open a browser\n\nBrowse `pixi` definition on github:\n\n````bash\n$ tsd query pixi --action browse\n$ tsd query pixi -a browse\n````\n\nVisit `gruntjs` homepage:\n\n````bash\n$ tsd query gruntjs --action visit\n$ tsd query gruntjs -a visit\n````\n\n#### Install to project\n\nInstall `mocha`:\n\n````bash\n$ tsd install mocha\n````\n\nInstall `mocha` and save to `tsd.json`:\n\n````bash\n$ tsd install mocha --save\n$ tsd install mocha -s\n````\n\nSame as query action:\n````bash\n$ tsd query mocha --save --action install\n$ tsd query mocha -sa install\n````\n\n\nResolve the reference to `jquery`, overwrite existing files and save to `tsd.json`:\n\n````bash\n$ tsd install angular --resolve --overwrite --save\n$ tsd install angular -r -o -s\n$ tsd install angular -ros\n````\n\nSame as query action:\n````bash\n$ tsd query angular --resolve --overwrite --save --action install\n````\n\nInstall `mocha`, `chai` and `sinon` definitions all at once, with resolve references, overwrite existing files and save to `tsd.json`:\n\n````bash\n$ tsd install mocha chai sinon -ros\n````\n\nInstall all definitions from `tsd.json`:\n\n````bash\n$ tsd install\n````\n\n> NOTE: `tsd install` will work like `tsd reinstall --save --overwrite`\n\n#### Reinstall definitions\n\nReset the definitions to the commits listed in `tsd.json`:\n\n````bash\n$ tsd reinstall --save --overwrite\n$ tsd reinstall -s -o\n$ tsd reinstall -so\n````\n\n\n#### Update all definitions\n\nUpdate everything in `tsd.json` to head version in the repository:\n\n````bash\n$ tsd update --save --overwrite\n$ tsd update -s -o\n$ tsd update -so\n````\n\n\n#### Link to bundled definitions\n\nTSD supports discovery and linking of definitions from packages installed with `node` or `bower`.\n\nUse the `link` command and your `tsd.d.ts` will be updated with paths to the files in the `node_modules` or `bower_modules` folders.\n\n\n````bash\n$ tsd link\n````\n\nThis feature will scan `package.json` and `bower.json` files for a `typescript` element. This element then contains `definition` or `definitions` sub-element that contain relative path(s) to `.d.ts` files:\n\n\n````json\n{\n\t"name": "cool-module",\n\t"version": "1.2.3",\n\t"typescript": {\n\t\t"definition": "dist/cool-module.d.ts"\n\t}\n}\n````\n\nIf the module exports multiple independent files,eg: for some reason not internally `<reference>`\'d:\n\n````json\n{\n\t"name": "cool-module",\n\t"version": "1.2.3",\n\t"typescript": {\n\t\t"definitions": [\n\t\t\t"dist/cool-partA.d.ts",\n\t\t\t"dist/cool-partB.d.ts"\n\t\t]\n\t}\n}\n````\n\n\n#### Rebundle definition file\n\nCleanup the bundle file (usually `tsd.d.ts`): remove paths to non-existent files, and append unlisted definitions. Handy when editing definitions.\n\n````bash\n$ tsd rebundle\n````\n\n\n#### Rate-limit\n\nPrint current Github rate-limit info\n\n````bash\n$ tsd rate\n````\n\n\n#### Clear http cache\n\nForcefully remove global http cache files\n\n````bash\n$ tsd purge\n````\n\n\n## Detailed queries\n\nThere are various ways to select files from the repository index.\n\n### Module name\n\nTSD uses a (globbing) path + filename selector to query the [DefinitelyTyped index](https://github.com/borisyankov/DefinitelyTyped). The results can then be modified using various filters:\n\nNote how the definition filename takes priority:\n\n````bash\n$ tsd query module\n$ tsd query project/module\n````\n\n\nFor example, consider these definitions:\n\n````\nproject/module.d.ts\nproject/module-0.1.2.d.ts\nproject/module-addon.d.ts\n\nproject-plugin/plugin.d.ts\n\nother/module.d.ts\nother/plugin.d.ts\n````\n\nNotice the pattern, and ignore the `.d.ts` extension:\n\n````html\n<project>/<module><semver>.d.ts\n````\n\nSelect definitions using only the module name:\n\n````bash\n$ tsd query module\n$ tsd query module-addon\n````\n\nOr use a selector derived from the path format:\n\n````bash\n$ tsd query project/module\n$ tsd query other/module\n````\n\nOr simply get everything in a project:\n\n````bash\n$ tsd query project/\n````\n\n### Globbing filter\n\nThe selector also supports globbing, for example:\n\n````bash\n$ tsd query project/*\n$ tsd query project*\n$ tsd query module*\n$ tsd query project/module*\n$ tsd query project-*/plugin*\n$ tsd query *project*/*\n$ tsd query project/plugin*\n$ tsd query other/module\n$ tsd query */module\n$ tsd query */module-*\n$ tsd query */*plugin\n````\n\nHint: if you are using Linux or Mac OS X, use quotes to glob:\n\n````bash\n$ tsd query "*/jquery.*"\n````\n\n### Semver filter\n\nNote: the [semver](https://github.com/isaacs/node-semver) postfix of definition files is expected to be separated by a dash and possibly a `\'v\'`\n\n````\nmodule-0.1.2\nmodule-v0.1.2\nmodule-v0.1.2-alpha\n````\n\nIf there are multiple matches with same module name they will be prioritised:\n\n1.\tThe unversioned name is considered being most recent.\n2.\tThen versions are compared as expected following these [comparison](https://github.com/isaacs/node-semver#comparison) rules.\n3.\tUse the `--version` / `-v` option to set a semver-range:\n\n````bash\n$ tsd query node -v latest\n$ tsd query node -v all\n$ tsd query node -v ">=0.8 <0.10"\n$ tsd query node -v "<0.10"\n````\n\n### Date filter\n\nUse the `--date` / `-d` option to set a date-range (find dates using `--history` / `-y`):\n\n````bash\n$ tsd query d3 --history\n$ tsd query d3 --date ">=2012-01-01"\n\n$ tsd query d3 -y\n$ tsd query d3 -d "<2012-01-01"\n````\n\n### Commit filter\n\nUse the `--commit` / `-c` option to supply sha1-hash of a commit (find a commit hash using `--history`), for convenience a shortened sha1 hash is supported.\n\n````bash\n$ tsd query youtube --history\n$ tsd query youtube --commit d6ff\n\n$ tsd query youtube -y\n$ tsd query youtube -c d6ff\n````\n\nNotes:\n\n1. For now this only works with commits that actually changed the definition file you selected (eg, listed in `--history`) This will be expanded to allow selecting from any commit at a later date.\n\n## Special files\n\n### tsd.json\n\nThe `tsd.json` file is automatically created in the root of each project: it configures TSD and it tracks the definitions that are installed (using `--save`).\n\nTo generate a default `tsd.json` run:\n\n````bash\n$ tsd init\n````\n\nAn example configuration the \'node.js\' definition installed would look like this:\n\n````json\n{\n\t"version": "v4",\n\t"repo": "borisyankov/DefinitelyTyped",\n\t"ref": "master",\n\t"path": "typings",\n\t"bundle": "typings/tsd.d.ts",\n\t"installed": {\n\t\t"node/node.d.ts": {\n\t\t\t"commit": "6834f97fb33561a3ad40695084da2b660efaee29"\n\t\t}\n    }\n}\n````\n\nSupported fields:\n\n\n| field | required | default | description  |\n|---|---|---|---|\n| `version` | yes | `v4` | Tracks config version for future changes (don\'t change this).\n| `repo` | yes | `borisyankov/DefinitelyTyped` |  Github user and repo name of the typings repository. Change this if you want to use TSD from a DefinitelyTyped fork.\n| `ref` | yes | `master` | Branch name or other git reference of the repository. Change this to use legacy branches.\n| `path` | yes | `typings` | Path to the typings directory, the definitions will be installed in the appropriate sub-folders. Change this to have typings in your main code directory, but this is not recommended as the mixed styles used in the definitions it will confuse your inspections and lint-tools.\n| `bundle` | no | `typings/tsd.d.ts` | Path to a `.d.ts` bundle file (see below). Change this if you want the bundle to be closer to the actual source files. TSD will create the appropriate relative paths.\n| `stats` | no | (not set) | Set to `false` to disable the stats tracking. Keep in mind the stats are anonymous, help us improve TSD & DT and motivate us to spend our time on development. See below for the \'Privacy statement\'.\n\n--\n\n### tsd.d.ts\n\nThe `tsd.d.ts` file refers every definition that is installed with `--save` for convenient and explicit single reference from code.\n\n````\n/// <reference path="../typings/tsd.d.ts" />\n````\n\nBy default it is created in the typings folder but the name and location are configurable in `tsd.json`. When adding new references TSD will check the existing references and respects re-ordering (ordering is important for inter-dependent definitions).\n\n\n--\n\n### .tsdrc\n\nThis is a optional JSON encoded file to define global settings. TSD looks for it in the  user\'s home director (eg: `%USERPROFILE%` on Windows, `$HOME` / `~` on Linux), and in the current working directory.\n\n- "**proxy**" - Use a http `proxy`\n\nAny standard http-proxy as supported by the [request](https://github.com/mikeal/request) package.\n\n````json\n{\n\t"proxy": "http://proxy.example.com:88"\n}\n````\n\n- "**strictSSL**" - Toggle strictSSL verification:\n\nEnabled by default, setting this option to `false` disables strict SSL. Passed to [request](https://github.com/mikeal/request) package.\n\nUseful behind (corporate) proxies that act like man-in-the middle on https connections.\n\n````json\n{\n\t"strictSSL": false\n}\n````\n\n- "**token**" - Github OAuth token:\n\nThe OAuth token can be used to boost the Github API rate-limit from 60 to 5000 (non-cached) requests per hour. The is token needs just [\'read-only access to public information\'](http://developer.github.com/v3/oauth/#scopes) so no additional OAuth scopes are necessary.\n\n````json\n{\n\t"token": "0beec7b5ea3f0fdbc95d0dd47f3c5bc275da8a33"\n}\n````\n\nYou can also set the token using the `TSD_GITHUB_TOKEN` environment variable.\n\nYou can create this token on Github.com:\n\n1. Go to https://github.com/settings/tokens/new\n3. *Deselect* all scopes to create a token with just basic authentication.\n\t1. (verify you *really* deselected all scopes)\n\t5. (wonder why these presets were set??)\n2. Enter a identifying name, something like "`TSD Turbo 5000`"\n5. Create the token.\n6. Copy the hex-string to the `token` element in the `.tsdrc` file.\n6. Verify enhanced rate-limit using `$ tsd rate`\n\nChange or revoke the token at any time on https://github.com/settings/applications\n\nNote: keep in mind the `.tsdrc` file is *not* secured. Don\'t use a token with additional scope unless you know what you are doing.\n\nThe bare \'no scope\' token is *relatively* harmless as it gives \'read-only access to public information\', same as any non-authenticated access. But it does *identify* any requests done with it as being *yours*, so it is still *your* responsibility to keep the token private.\n\n## Usage as module\n\nTSD can be used as a JavaScript npm dependency:\n\n````js\nvar tsd = require(\'tsd\');\nvar api = new tsd.API(new tsd.Context(\'path/to/tsd-config.json\'));\napi.search(new tsd.Selector(\'jquery/*\')).then(function(res) {\n\t// yes\n\tutil.inspect(res);\n\n}, function(err) {\n\t// no\n});\n````\n\nFor a practical example see [grunt-tsd](https://github.com/DefinitelyTyped/grunt-tsd).\n\nTSD uses Promise/A+ by [bluebird](https://github.com/petkaantonov/bluebird). :point_left::+1:\n\nAPI export is somewhat experimental; take care to lock versions and test on upgrade. If you plan to use TSD as module in a tool or project then feel free to [leave a message](https://github.com/DefinitelyTyped/tsd/issues) and coordinate stuff.\n\n### API docs\n\nNot yet.\n\n## Notes\n\n*\tIt is recommended you check-in the definitions you install into your VCS.\n*\tDon\'t forget to move your fixes back to [DefinitelyTyped](https://github.com/borisyankov/DefinitelyTyped)\n\n#### Github rate-limit\n\nThe Github API has a 60-requests-per-hour [rate-limit](http://developer.github.com/v3/#rate-limiting) for non-authenticated use. You\'ll likely never hit this as TSD uses local caching and the definition files are downloaded from Github RAW urls. If you need some more then a scope-limited Github OAuth token can be used to boost the limit to 5000.\n\n#### Usage stats & update-notifier\n\nThe CLI tool [tracks](https://github.com/DefinitelyTyped/tsd/blob/master/src/tsd/cli/tracker.ts) some *anonymous* usage statistics about what definitions are installed though TSD in Google Analytics (using [universal-analytics](https://npmjs.org/package/universal-analytics)). There is also a [update-notifier](https://npmjs.org/package/update-notifier) service to check for TSD updates.\n\n\n## FAQ & Info\n\n### Is there a build task available?\n\nOf course! The official plugin is [grunt-tsd](https://github.com/DefinitelyTyped/grunt-tsd), and the community created [gulp-tsd](https://github.com/moznion/gulp-tsd).\n\n### I hit the Github rate-limit, now what?\n\nIf TSD is used in a way that needs many unique API calls in a short period (like using `--history` on big selections), or shares an internet-connection with multiple users (like in an office) then the rate limit blocks the API. It blocks for 60 minutes after the *first* request of the total 60.\n\nFor these cases TSD has an option to use a Github OAuth token and raise your local rate-limit from 60 to 5000 per hour. See the `.tsdrc`-section elsewhere in the readme.\n\n### Does TSD work behind a (corporate) http proxy?\n\nAs of `v0.5.7` there are two ways to configure the location of the proxy server:\n\n1. Use a environment variable. TSD support the conventional fields: pick one of `HTTPS_PROXY`, `https_proxy`, `HTTP_PROXY` or `http_proxy`.\n1. Use a global `.tsdrc` file and set a `proxy` value (see the tsdrc-section elsewhere in the readme).\n\n### What if my proxy terminates SSL?\n\nAs of `v0.6.0` strict SSL verification can be disabled in `.tsdrc` via `strictSSL` variable (see tsdrc-section).\n\n### Can TSD auto-install definitions for a specific package version?\n\nYes, and no (and later yes again)\n\nThere is basic support for parsing semver-postfixes from the definition file names, and you can filter on this using [semver](https://github.com/isaacs/node-semver) ranges with the `--version` option: Try it with the \'node\' definitions.\n\nIt works well but is not used much in the current DefinitelyTyped repository. The DefinitelyTyped [group](https://github.com/DefinitelyTyped/tsd/issues) is working on a meta-data source that will solve this (the [Nuget exporter](https://github.com/DefinitelyTyped/NugetAutomation) is waiting for this too).\n\n### What is the location of the cache folders?\n\nThe cache is stored in the users home directory (like `$ npm`). Use `$ tsd settings` to view the current paths. Use the `--cacheDir` to override the cache directory, or `--cacheMode` to modify caching behaviour.\n\n### I have a suggestion or contribution\n\nFeel free to leave a [ticket](https://github.com/DefinitelyTyped/tsd/issues). Questions and contributions for the definition files go [here](https://github.com/borisyankov/DefinitelyTyped/issues).\n\n## History\n\n### v0.6.x ( > 2014-10)\n\n* Long delayed release of major overhaul: migrated code to external module style and reworked many features, subsystems and dependencies. Development in [dev/next](https://github.com/DefinitelyTyped/tsd/tree/dev/next) branch.\n\n* Interesting changes\n\t* added `install` command to CLI\n\t* improved module-name pattern matching\n\t* refreshed CLI interface, formatting, help\n\t* reworked http download/cache\n\t* switched many modules, added `definition-header`\n\t* replaced ugly node-gyp sub-dependency\n\n### v0.5.x ( > 2013-08)\n\n* Current release versions. See the [release tags](https://github.com/DefinitelyTyped/tsd/releases) fore more details.\n\n* Full rewrite by @[Bartvds](https://github.com/Bartvds): drops the separated TSD data registry in favour of using the [Github API](http://developer.github.com/) to pull definitions directly from [DefinitelyTyped](https://github.com/borisyankov/DefinitelyTyped).\n\n### v0.3.x\n\n* Original version by @[Diullei](https://github.com/Diullei).\n\nTo install `v0.3.x` (old readme [here](https://github.com/DefinitelyTyped/tsd/blob/legacy/README.md)):\n\n````bash\n$ npm install tsd@0.3.0 -g\n````\n\n## Build\n\nTSD is compiled with [TypeScript](http://www.typescriptlang.org/) `v1.1.0-1` and managed using [Grunt](http://www.gruntjs.com).\n\nTo rebuild clone the repos:\n\nInstall dependencies:\n\n````bash\n$ npm install\n````\n\nBuild, lint and test:\n\n````bash\n$ grunt test\n````\n\nOnly rebuild:\n\n````bash\n$ grunt build\n````\n\nRun in dev folder:\n\n````bash\n$ node ./build/cli.js query d3 --dev\n````\n\nInstall dev folder to global cli:\n\n````bash\n$ npm install . -g\n````\n\nTSD uses [gruntfile-gtx](https://github.com/Bartvds/gruntfile-gtx) to test separate test suites sets during development:\n\nList aliases:\n\n````bash\n$ grunt -h\n````\n\nExample: run only api tests:\n\n````bash\n$ grunt gtx:api\n$ grunt gtx:cli\n$ grunt gtx:tsd\n````\n\nIt is recommend you use an intelligent parsing IDE (WebStorm or VisualStudio) and a big screen (or two) on a properly powerful workstation.\n\nCode looks best with tabs rendered at 4 spaces (3 is nice too, or 6 or 8.. I don\'t really care, because [smart-tabs](http://www.emacswiki.org/SmartTabs) are awesome like that). The gruntfile uses slightly harsh [JSHint](https://github.com/jshint/jshint) and [TSLint](https://github.com/palantir/tslint) settings to enforce code style, but there is an [`.editorconfig`](http://editorconfig.org/) to elevate some of the pain.\n\nMaster branch is the release version, new development happens currently in [dev/next](https://github.com/DefinitelyTyped/tsd/tree/dev/next) branch: probably broken and regularly rebased for near future.\n\n\n## Contribute\n\nContributions are very welcome; please discuss larger changes in a [ticket](https://github.com/DefinitelyTyped/tsd/issues) first. Fixes and simple enhancements are always much appreciated. Please make sure you work in the right branch.\n\n**Note:** Contributions on the definition files go directly to [DefinitelyTyped](https://github.com/borisyankov/DefinitelyTyped).\n\n\n## Privacy\n\nThe TSD CLI tool collects definition usage information, like the queries made to the repo and the definitions that get installed. The information collected amounts to about same level of detail as services like npm or github would collect (maybe even less as we don\'t track a user id).\n\nThe API does not track anything.\n\nTo store this TSD uses [Google Analytics](http://www.google.com/analytics/) in the excellent [universal-analytics](https://npmjs.org/package/universal-analytics) package. We might at some point publish some anonymised aggregate stats to the DefinitelyTyped website.\n\nChanges to the policy should be announced in release notes, and ideally ask confirmation on the first CLI use.\n\nKeep in mind we\'re just devs like you and are working on this in our spare time; we run this project out of love and duty and most of all for fun as learning experience. The stats give us helpful insights into the usage of TSD, and of course the growing numbers and graphs motivate us to spend our time on further development.\n\n\n## Security\n\nPlease close read the relevant sections of the readme, especially on OAuth \'scope\'.\n\nThe optional [Github OAuth token](http://developer.github.com/v3/oauth/) is only used to authenticate with the Github API. The token is not stored anywhere but the local machine. It is your responsibility to keep your token safe.\n\nUsing an OAuth token with additional scope is *neither advised nor supported*, even though it could make TSD work with private repositories. But it might also leak repo or content names to analytics or leave a bare http cache in your temp dir. If this bothers you please review the license and/or leave a message.\n\n\n## License\n\nCopyright (c) 2014 by [Bart van der Schoor](https://github.com/Bartvds) @ [DefinitelyTyped](https://github.com/DefinitelyTyped)\n\nLicensed under the [Apache License, Version 2.0](https://raw.github.com/DefinitelyTyped/tsd/master/LICENSE.txt).\n\n* note: there is some imported MIT licensed code by myself, [Bart van der Schoor](https://github.com/Bartvds)\n\nCopyright (c) 2012 by [Diullei Gomes](https://github.com/Diullei).\n\nLicensed under the MIT License.\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/DefinitelyTyped/tsd/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n',
+552 silly resolved     readmeFilename: 'README.md',
+552 silly resolved     _id: 'tsd@0.6.5',
+552 silly resolved     dist: { shasum: 'cfda2fb6f2ea004ac7202d4d1ef665230ff8d02b' },
+552 silly resolved     _from: 'tsd@',
+552 silly resolved     _resolved: 'http://registry.npmjs.org/tsd/-/tsd-0.6.5.tgz' } ]
+553 info install tsd@0.6.5 into C:\Users\Pramod\AppData\Roaming\npm
+554 info installOne tsd@0.6.5
+555 verbose from cache C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package\package.json
+556 info C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd unbuild
+557 verbose read json C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd\package.json
+558 verbose tar unpack C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+559 silly lockFile 968ddfee-ata-Roaming-npm-node-modules-tsd C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd
+560 verbose lock C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd C:\Users\Pramod\AppData\Roaming\npm-cache\968ddfee-ata-Roaming-npm-node-modules-tsd.lock
+561 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+562 verbose lock C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\69349f92--npm-cache-tsd-0-6-5-package-tgz.lock
+563 silly gunzTarPerm modes [ '755', '644' ]
+564 silly gunzTarPerm extractEntry package.json
+565 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+566 silly gunzTarPerm extractEntry README.md
+567 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+568 silly gunzTarPerm extractEntry build/api.js
+569 silly gunzTarPerm modified mode [ 'build/api.js', 438, 420 ]
+570 silly gunzTarPerm extractEntry build/bootstrap.js
+571 silly gunzTarPerm modified mode [ 'build/bootstrap.js', 438, 420 ]
+572 silly gunzTarPerm extractEntry build/cli.js
+573 silly gunzTarPerm modified mode [ 'build/cli.js', 438, 420 ]
+574 silly gunzTarPerm extractEntry build/getContent.js
+575 silly gunzTarPerm modified mode [ 'build/getContent.js', 438, 420 ]
+576 silly gunzTarPerm extractEntry build/expose/Command.js
+577 silly gunzTarPerm modified mode [ 'build/expose/Command.js', 438, 420 ]
+578 silly gunzTarPerm extractEntry build/expose/ContextHandle.js
+579 silly gunzTarPerm modified mode [ 'build/expose/ContextHandle.js', 438, 420 ]
+580 silly gunzTarPerm extractEntry build/expose/ContextValueHandle.js
+581 silly gunzTarPerm modified mode [ 'build/expose/ContextValueHandle.js', 438, 420 ]
+582 silly gunzTarPerm extractEntry build/expose/Expose.js
+583 silly gunzTarPerm modified mode [ 'build/expose/Expose.js', 438, 420 ]
+584 silly gunzTarPerm extractEntry build/expose/ExposeError.js
+585 silly gunzTarPerm modified mode [ 'build/expose/ExposeError.js', 438, 420 ]
+586 silly gunzTarPerm extractEntry build/expose/Context.js
+587 silly gunzTarPerm modified mode [ 'build/expose/Context.js', 438, 420 ]
+588 silly gunzTarPerm extractEntry build/expose/Group.js
+589 silly gunzTarPerm modified mode [ 'build/expose/Group.js', 438, 420 ]
+590 silly gunzTarPerm extractEntry build/expose/Level.js
+591 silly gunzTarPerm modified mode [ 'build/expose/Level.js', 438, 420 ]
+592 silly gunzTarPerm extractEntry build/expose/Option.js
+593 silly gunzTarPerm modified mode [ 'build/expose/Option.js', 438, 420 ]
+594 silly gunzTarPerm extractEntry build/expose/Result.js
+595 silly gunzTarPerm modified mode [ 'build/expose/Result.js', 438, 420 ]
+596 silly gunzTarPerm extractEntry build/expose/ResultHandle.js
+597 silly gunzTarPerm modified mode [ 'build/expose/ResultHandle.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry build/expose/CommandSorter.js
+599 silly gunzTarPerm modified mode [ 'build/expose/CommandSorter.js', 438, 420 ]
+600 silly gunzTarPerm extractEntry build/expose/sorter.js
+601 silly gunzTarPerm modified mode [ 'build/expose/sorter.js', 438, 420 ]
+602 silly gunzTarPerm extractEntry build/expose/Formatter.js
+603 silly gunzTarPerm modified mode [ 'build/expose/Formatter.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry build/git/GithubRepo.js
+605 silly gunzTarPerm modified mode [ 'build/git/GithubRepo.js', 438, 420 ]
+606 silly gunzTarPerm extractEntry build/git/GithubRepoConfig.js
+607 silly gunzTarPerm modified mode [ 'build/git/GithubRepoConfig.js', 438, 420 ]
+608 silly gunzTarPerm extractEntry build/git/GithubURLs.js
+609 silly gunzTarPerm modified mode [ 'build/git/GithubURLs.js', 438, 420 ]
+610 silly gunzTarPerm extractEntry build/git/gitUtil.js
+611 silly gunzTarPerm modified mode [ 'build/git/gitUtil.js', 438, 420 ]
+612 silly gunzTarPerm extractEntry build/git/loader/GithubAPI.js
+613 silly gunzTarPerm modified mode [ 'build/git/loader/GithubAPI.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry build/git/loader/GithubLoader.js
+615 silly gunzTarPerm modified mode [ 'build/git/loader/GithubLoader.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry build/git/loader/GithubRaw.js
+617 silly gunzTarPerm modified mode [ 'build/git/loader/GithubRaw.js', 438, 420 ]
+618 silly gunzTarPerm extractEntry build/git/model/GitCommitMessage.js
+619 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitMessage.js', 438, 420 ]
+620 silly gunzTarPerm extractEntry build/git/model/GitCommitUser.js
+621 silly gunzTarPerm modified mode [ 'build/git/model/GitCommitUser.js', 438, 420 ]
+622 silly gunzTarPerm extractEntry build/git/model/GithubJSONTreeElem.js
+623 silly gunzTarPerm modified mode [ 'build/git/model/GithubJSONTreeElem.js', 438, 420 ]
+624 silly gunzTarPerm extractEntry build/git/model/GithubRateInfo.js
+625 silly gunzTarPerm modified mode [ 'build/git/model/GithubRateInfo.js', 438, 420 ]
+626 silly gunzTarPerm extractEntry build/git/model/GithubUser.js
+627 silly gunzTarPerm modified mode [ 'build/git/model/GithubUser.js', 438, 420 ]
+628 silly gunzTarPerm extractEntry build/http/CacheInfo.js
+629 silly gunzTarPerm modified mode [ 'build/http/CacheInfo.js', 438, 420 ]
+630 silly gunzTarPerm extractEntry build/http/CacheMode.js
+631 silly gunzTarPerm modified mode [ 'build/http/CacheMode.js', 438, 420 ]
+632 silly gunzTarPerm extractEntry build/http/CacheObject.js
+633 silly gunzTarPerm modified mode [ 'build/http/CacheObject.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry build/http/CacheOpts.js
+635 silly gunzTarPerm modified mode [ 'build/http/CacheOpts.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry build/http/CacheRequest.js
+637 silly gunzTarPerm modified mode [ 'build/http/CacheRequest.js', 438, 420 ]
+638 silly gunzTarPerm extractEntry build/http/CacheStreamLoader.js
+639 silly gunzTarPerm modified mode [ 'build/http/CacheStreamLoader.js', 438, 420 ]
+640 silly gunzTarPerm extractEntry build/http/HTTPCache.js
+641 silly gunzTarPerm modified mode [ 'build/http/HTTPCache.js', 438, 420 ]
+642 silly gunzTarPerm extractEntry build/http/HTTPOpts.js
+643 silly gunzTarPerm modified mode [ 'build/http/HTTPOpts.js', 438, 420 ]
+644 silly gunzTarPerm extractEntry build/http/ResponseInfo.js
+645 silly gunzTarPerm modified mode [ 'build/http/ResponseInfo.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry build/http/types.js
+647 silly gunzTarPerm modified mode [ 'build/http/types.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry build/tsd/API.js
+649 silly gunzTarPerm modified mode [ 'build/tsd/API.js', 438, 420 ]
+650 silly gunzTarPerm extractEntry build/tsd/CLI.js
+651 silly gunzTarPerm modified mode [ 'build/tsd/CLI.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry build/tsd/Options.js
+653 silly gunzTarPerm modified mode [ 'build/tsd/Options.js', 438, 420 ]
+654 silly gunzTarPerm extractEntry build/tsd/context/Config.js
+655 silly gunzTarPerm modified mode [ 'build/tsd/context/Config.js', 438, 420 ]
+656 silly gunzTarPerm extractEntry build/tsd/context/Const.js
+657 silly gunzTarPerm modified mode [ 'build/tsd/context/Const.js', 438, 420 ]
+658 silly gunzTarPerm extractEntry build/tsd/context/Context.js
+659 silly gunzTarPerm modified mode [ 'build/tsd/context/Context.js', 438, 420 ]
+660 silly gunzTarPerm extractEntry build/tsd/context/InstalledDef.js
+661 silly gunzTarPerm modified mode [ 'build/tsd/context/InstalledDef.js', 438, 420 ]
+662 silly gunzTarPerm extractEntry build/tsd/context/Paths.js
+663 silly gunzTarPerm modified mode [ 'build/tsd/context/Paths.js', 438, 420 ]
+664 silly gunzTarPerm extractEntry build/tsd/data/Def.js
+665 silly gunzTarPerm modified mode [ 'build/tsd/data/Def.js', 438, 420 ]
+666 silly gunzTarPerm extractEntry build/tsd/data/DefBlob.js
+667 silly gunzTarPerm modified mode [ 'build/tsd/data/DefBlob.js', 438, 420 ]
+668 silly gunzTarPerm extractEntry build/tsd/data/DefCommit.js
+669 silly gunzTarPerm modified mode [ 'build/tsd/data/DefCommit.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry build/tsd/data/DefIndex.js
+671 silly gunzTarPerm modified mode [ 'build/tsd/data/DefIndex.js', 438, 420 ]
+672 silly gunzTarPerm extractEntry build/tsd/data/DefInfo.js
+673 silly gunzTarPerm modified mode [ 'build/tsd/data/DefInfo.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry build/tsd/data/DefVersion.js
+675 silly gunzTarPerm modified mode [ 'build/tsd/data/DefVersion.js', 438, 420 ]
+676 silly gunzTarPerm extractEntry build/tsd/cli/addCommon.js
+677 silly gunzTarPerm modified mode [ 'build/tsd/cli/addCommon.js', 438, 420 ]
+678 silly gunzTarPerm extractEntry build/tsd/cli/CLIPrinter.js
+679 silly gunzTarPerm modified mode [ 'build/tsd/cli/CLIPrinter.js', 438, 420 ]
+680 silly gunzTarPerm extractEntry build/tsd/cli/cliUtils.js
+681 silly gunzTarPerm modified mode [ 'build/tsd/cli/cliUtils.js', 438, 420 ]
+682 silly gunzTarPerm extractEntry build/tsd/cli/const.js
+683 silly gunzTarPerm modified mode [ 'build/tsd/cli/const.js', 438, 420 ]
+684 silly gunzTarPerm extractEntry build/tsd/cli/StyleMap.js
+685 silly gunzTarPerm modified mode [ 'build/tsd/cli/StyleMap.js', 438, 420 ]
+686 silly gunzTarPerm extractEntry build/tsd/cli/TablePrinter.js
+687 silly gunzTarPerm modified mode [ 'build/tsd/cli/TablePrinter.js', 438, 420 ]
+688 silly gunzTarPerm extractEntry build/tsd/cli/tracker.js
+689 silly gunzTarPerm modified mode [ 'build/tsd/cli/tracker.js', 438, 420 ]
+690 silly gunzTarPerm extractEntry build/tsd/cli/update.js
+691 silly gunzTarPerm modified mode [ 'build/tsd/cli/update.js', 438, 420 ]
+692 silly gunzTarPerm extractEntry build/tsd/util/DateComp.js
+693 silly gunzTarPerm modified mode [ 'build/tsd/util/DateComp.js', 438, 420 ]
+694 silly gunzTarPerm extractEntry build/tsd/util/defUtil.js
+695 silly gunzTarPerm modified mode [ 'build/tsd/util/defUtil.js', 438, 420 ]
+696 silly gunzTarPerm extractEntry build/tsd/util/error-handler.js
+697 silly gunzTarPerm modified mode [ 'build/tsd/util/error-handler.js', 438, 420 ]
+698 silly gunzTarPerm extractEntry build/tsd/schema/config.js
+699 silly gunzTarPerm modified mode [ 'build/tsd/schema/config.js', 438, 420 ]
+700 silly gunzTarPerm extractEntry build/tsd/select/CommitMatcher.js
+701 silly gunzTarPerm modified mode [ 'build/tsd/select/CommitMatcher.js', 438, 420 ]
+702 silly gunzTarPerm extractEntry build/tsd/select/DateMatcher.js
+703 silly gunzTarPerm modified mode [ 'build/tsd/select/DateMatcher.js', 438, 420 ]
+704 silly gunzTarPerm extractEntry build/tsd/select/InfoMatcher.js
+705 silly gunzTarPerm modified mode [ 'build/tsd/select/InfoMatcher.js', 438, 420 ]
+706 silly gunzTarPerm extractEntry build/tsd/select/NameMatcher.js
+707 silly gunzTarPerm modified mode [ 'build/tsd/select/NameMatcher.js', 438, 420 ]
+708 silly gunzTarPerm extractEntry build/tsd/select/Query.js
+709 silly gunzTarPerm modified mode [ 'build/tsd/select/Query.js', 438, 420 ]
+710 silly gunzTarPerm extractEntry build/tsd/select/Selection.js
+711 silly gunzTarPerm modified mode [ 'build/tsd/select/Selection.js', 438, 420 ]
+712 silly gunzTarPerm extractEntry build/tsd/select/VersionMatcher.js
+713 silly gunzTarPerm modified mode [ 'build/tsd/select/VersionMatcher.js', 438, 420 ]
+714 silly gunzTarPerm extractEntry build/tsd/support/AuthorInfo.js
+715 silly gunzTarPerm modified mode [ 'build/tsd/support/AuthorInfo.js', 438, 420 ]
+716 silly gunzTarPerm extractEntry build/tsd/support/Bundle.js
+717 silly gunzTarPerm modified mode [ 'build/tsd/support/Bundle.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry build/tsd/support/BundleChange.js
+719 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleChange.js', 438, 420 ]
+720 silly gunzTarPerm extractEntry build/tsd/support/BundleManager.js
+721 silly gunzTarPerm modified mode [ 'build/tsd/support/BundleManager.js', 438, 420 ]
+722 silly gunzTarPerm extractEntry build/tsd/support/PackageDefinition.js
+723 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageDefinition.js', 438, 420 ]
+724 silly gunzTarPerm extractEntry build/tsd/support/PackageLinker.js
+725 silly gunzTarPerm modified mode [ 'build/tsd/support/PackageLinker.js', 438, 420 ]
+726 silly gunzTarPerm extractEntry build/tsd/logic/ConfigIO.js
+727 silly gunzTarPerm modified mode [ 'build/tsd/logic/ConfigIO.js', 438, 420 ]
+728 silly gunzTarPerm extractEntry build/tsd/logic/ContentLoader.js
+729 silly gunzTarPerm modified mode [ 'build/tsd/logic/ContentLoader.js', 438, 420 ]
+730 silly gunzTarPerm extractEntry build/tsd/logic/Core.js
+731 silly gunzTarPerm modified mode [ 'build/tsd/logic/Core.js', 438, 420 ]
+732 silly gunzTarPerm extractEntry build/tsd/logic/CoreModule.js
+733 silly gunzTarPerm modified mode [ 'build/tsd/logic/CoreModule.js', 438, 420 ]
+734 silly gunzTarPerm extractEntry build/tsd/logic/IndexManager.js
+735 silly gunzTarPerm modified mode [ 'build/tsd/logic/IndexManager.js', 438, 420 ]
+736 silly gunzTarPerm extractEntry build/tsd/logic/InfoParser.js
+737 silly gunzTarPerm modified mode [ 'build/tsd/logic/InfoParser.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry build/tsd/logic/Installer.js
+739 silly gunzTarPerm modified mode [ 'build/tsd/logic/Installer.js', 438, 420 ]
+740 silly gunzTarPerm extractEntry build/tsd/logic/InstallResult.js
+741 silly gunzTarPerm modified mode [ 'build/tsd/logic/InstallResult.js', 438, 420 ]
+742 silly gunzTarPerm extractEntry build/tsd/logic/Resolver.js
+743 silly gunzTarPerm modified mode [ 'build/tsd/logic/Resolver.js', 438, 420 ]
+744 silly gunzTarPerm extractEntry build/tsd/logic/SelectorQuery.js
+745 silly gunzTarPerm modified mode [ 'build/tsd/logic/SelectorQuery.js', 438, 420 ]
+746 silly gunzTarPerm extractEntry build/xm/assert.js
+747 silly gunzTarPerm modified mode [ 'build/xm/assert.js', 438, 420 ]
+748 silly gunzTarPerm extractEntry build/xm/collection.js
+749 silly gunzTarPerm modified mode [ 'build/xm/collection.js', 438, 420 ]
+750 silly gunzTarPerm extractEntry build/xm/dateUtils.js
+751 silly gunzTarPerm modified mode [ 'build/xm/dateUtils.js', 438, 420 ]
+752 silly gunzTarPerm extractEntry build/xm/encode.js
+753 silly gunzTarPerm modified mode [ 'build/xm/encode.js', 438, 420 ]
+754 silly gunzTarPerm extractEntry build/xm/fileIO.js
+755 silly gunzTarPerm modified mode [ 'build/xm/fileIO.js', 438, 420 ]
+756 silly gunzTarPerm extractEntry build/xm/assertVar.js
+757 silly gunzTarPerm modified mode [ 'build/xm/assertVar.js', 438, 420 ]
+758 silly gunzTarPerm extractEntry build/xm/inspect.js
+759 silly gunzTarPerm modified mode [ 'build/xm/inspect.js', 438, 420 ]
+760 silly gunzTarPerm extractEntry build/xm/stringUtils.js
+761 silly gunzTarPerm modified mode [ 'build/xm/stringUtils.js', 438, 420 ]
+762 silly gunzTarPerm extractEntry build/xm/objectUtils.js
+763 silly gunzTarPerm modified mode [ 'build/xm/objectUtils.js', 438, 420 ]
+764 silly gunzTarPerm extractEntry build/xm/parseString.js
+765 silly gunzTarPerm modified mode [ 'build/xm/parseString.js', 438, 420 ]
+766 silly gunzTarPerm extractEntry build/xm/typeOf.js
+767 silly gunzTarPerm modified mode [ 'build/xm/typeOf.js', 438, 420 ]
+768 silly gunzTarPerm extractEntry build/xm/hash.js
+769 silly gunzTarPerm modified mode [ 'build/xm/hash.js', 438, 420 ]
+770 silly gunzTarPerm extractEntry build/xm/lib/ActionMap.js
+771 silly gunzTarPerm modified mode [ 'build/xm/lib/ActionMap.js', 438, 420 ]
+772 silly gunzTarPerm extractEntry build/xm/lib/CodeStyle.js
+773 silly gunzTarPerm modified mode [ 'build/xm/lib/CodeStyle.js', 438, 420 ]
+774 silly gunzTarPerm extractEntry build/xm/lib/eventLog.js
+775 silly gunzTarPerm modified mode [ 'build/xm/lib/eventLog.js', 438, 420 ]
+776 silly gunzTarPerm extractEntry build/xm/lib/JSONPointer.js
+777 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONPointer.js', 438, 420 ]
+778 silly gunzTarPerm extractEntry build/xm/lib/JSONStabilizer.js
+779 silly gunzTarPerm modified mode [ 'build/xm/lib/JSONStabilizer.js', 438, 420 ]
+780 silly gunzTarPerm extractEntry build/xm/lib/PackageJSON.js
+781 silly gunzTarPerm modified mode [ 'build/xm/lib/PackageJSON.js', 438, 420 ]
+782 silly gunzTarPerm extractEntry build/xm/lib/StatCounter.js
+783 silly gunzTarPerm modified mode [ 'build/xm/lib/StatCounter.js', 438, 420 ]
+784 silly gunzTarPerm extractEntry build/xm/lib/StyledOut.js
+785 silly gunzTarPerm modified mode [ 'build/xm/lib/StyledOut.js', 438, 420 ]
+786 silly gunzTarPerm extractEntry build/xm/lib/URLManager.js
+787 silly gunzTarPerm modified mode [ 'build/xm/lib/URLManager.js', 438, 420 ]
+788 silly gunzTarPerm extractEntry conf/settings.json
+789 silly gunzTarPerm modified mode [ 'conf/settings.json', 438, 420 ]
+790 silly gunzTarPerm extractEntry LICENSE.txt
+791 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+792 silly gunzTarPerm extractEntry tsconfig.json
+793 silly gunzTarPerm modified mode [ 'tsconfig.json', 438, 420 ]
+794 verbose read json C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd\package.json
+795 silly lockFile 968ddfee-ata-Roaming-npm-node-modules-tsd C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd
+796 silly lockFile 968ddfee-ata-Roaming-npm-node-modules-tsd C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd
+797 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+798 silly lockFile 69349f92--npm-cache-tsd-0-6-5-package-tgz C:\Users\Pramod\AppData\Roaming\npm-cache\tsd\0.6.5\package.tgz
+799 info preinstall tsd@0.6.5
+800 verbose from cache C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd\package.json
+801 verbose readDependencies using package.json deps
+802 verbose from cache C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd\package.json
+803 verbose readDependencies using package.json deps
+804 verbose cache add [ 'assertion-error@1.0.0', null ]
+805 verbose cache add name=undefined spec="assertion-error@1.0.0" args=["assertion-error@1.0.0",null]
+806 verbose parsed url { protocol: null,
+806 verbose parsed url   slashes: null,
+806 verbose parsed url   auth: null,
+806 verbose parsed url   host: null,
+806 verbose parsed url   port: null,
+806 verbose parsed url   hostname: null,
+806 verbose parsed url   hash: null,
+806 verbose parsed url   search: null,
+806 verbose parsed url   query: null,
+806 verbose parsed url   pathname: 'assertion-error@1.0.0',
+806 verbose parsed url   path: 'assertion-error@1.0.0',
+806 verbose parsed url   href: 'assertion-error@1.0.0' }
+807 verbose cache add name="assertion-error" spec="1.0.0" args=["assertion-error","1.0.0"]
+808 verbose parsed url { protocol: null,
+808 verbose parsed url   slashes: null,
+808 verbose parsed url   auth: null,
+808 verbose parsed url   host: null,
+808 verbose parsed url   port: null,
+808 verbose parsed url   hostname: null,
+808 verbose parsed url   hash: null,
+808 verbose parsed url   search: null,
+808 verbose parsed url   query: null,
+808 verbose parsed url   pathname: '1.0.0',
+808 verbose parsed url   path: '1.0.0',
+808 verbose parsed url   href: '1.0.0' }
+809 verbose addNamed [ 'assertion-error', '1.0.0' ]
+810 verbose addNamed [ '1.0.0', '1.0.0' ]
+811 silly lockFile f5d03964-assertion-error-1-0-0 assertion-error@1.0.0
+812 verbose lock assertion-error@1.0.0 C:\Users\Pramod\AppData\Roaming\npm-cache\f5d03964-assertion-error-1-0-0.lock
+813 verbose cache add [ 'bl@^0.9.3', null ]
+814 verbose cache add name=undefined spec="bl@^0.9.3" args=["bl@^0.9.3",null]
+815 verbose parsed url { protocol: null,
+815 verbose parsed url   slashes: null,
+815 verbose parsed url   auth: null,
+815 verbose parsed url   host: null,
+815 verbose parsed url   port: null,
+815 verbose parsed url   hostname: null,
+815 verbose parsed url   hash: null,
+815 verbose parsed url   search: null,
+815 verbose parsed url   query: null,
+815 verbose parsed url   pathname: 'bl@^0.9.3',
+815 verbose parsed url   path: 'bl@^0.9.3',
+815 verbose parsed url   href: 'bl@^0.9.3' }
+816 verbose cache add name="bl" spec="^0.9.3" args=["bl","^0.9.3"]
+817 verbose parsed url { protocol: null,
+817 verbose parsed url   slashes: null,
+817 verbose parsed url   auth: null,
+817 verbose parsed url   host: null,
+817 verbose parsed url   port: null,
+817 verbose parsed url   hostname: null,
+817 verbose parsed url   hash: null,
+817 verbose parsed url   search: null,
+817 verbose parsed url   query: null,
+817 verbose parsed url   pathname: '^0.9.3',
+817 verbose parsed url   path: '^0.9.3',
+817 verbose parsed url   href: '^0.9.3' }
+818 verbose addNamed [ 'bl', '^0.9.3' ]
+819 verbose addNamed [ null, null ]
+820 silly lockFile 505cf248-bl-0-9-3 bl@^0.9.3
+821 verbose lock bl@^0.9.3 C:\Users\Pramod\AppData\Roaming\npm-cache\505cf248-bl-0-9-3.lock
+822 verbose cache add [ 'bluebird@~1.2.4', null ]
+823 verbose cache add name=undefined spec="bluebird@~1.2.4" args=["bluebird@~1.2.4",null]
+824 verbose parsed url { protocol: null,
+824 verbose parsed url   slashes: null,
+824 verbose parsed url   auth: null,
+824 verbose parsed url   host: null,
+824 verbose parsed url   port: null,
+824 verbose parsed url   hostname: null,
+824 verbose parsed url   hash: null,
+824 verbose parsed url   search: null,
+824 verbose parsed url   query: null,
+824 verbose parsed url   pathname: 'bluebird@~1.2.4',
+824 verbose parsed url   path: 'bluebird@~1.2.4',
+824 verbose parsed url   href: 'bluebird@~1.2.4' }
+825 verbose cache add name="bluebird" spec="~1.2.4" args=["bluebird","~1.2.4"]
+826 verbose parsed url { protocol: null,
+826 verbose parsed url   slashes: null,
+826 verbose parsed url   auth: null,
+826 verbose parsed url   host: null,
+826 verbose parsed url   port: null,
+826 verbose parsed url   hostname: null,
+826 verbose parsed url   hash: null,
+826 verbose parsed url   search: null,
+826 verbose parsed url   query: null,
+826 verbose parsed url   pathname: '~1.2.4',
+826 verbose parsed url   path: '~1.2.4',
+826 verbose parsed url   href: '~1.2.4' }
+827 verbose addNamed [ 'bluebird', '~1.2.4' ]
+828 verbose addNamed [ null, '>=1.2.4- <1.3.0-' ]
+829 silly lockFile 161b974b-bluebird-1-2-4 bluebird@~1.2.4
+830 verbose lock bluebird@~1.2.4 C:\Users\Pramod\AppData\Roaming\npm-cache\161b974b-bluebird-1-2-4.lock
+831 verbose cache add [ 'chalk@^1.0.0', null ]
+832 verbose cache add name=undefined spec="chalk@^1.0.0" args=["chalk@^1.0.0",null]
+833 verbose parsed url { protocol: null,
+833 verbose parsed url   slashes: null,
+833 verbose parsed url   auth: null,
+833 verbose parsed url   host: null,
+833 verbose parsed url   port: null,
+833 verbose parsed url   hostname: null,
+833 verbose parsed url   hash: null,
+833 verbose parsed url   search: null,
+833 verbose parsed url   query: null,
+833 verbose parsed url   pathname: 'chalk@^1.0.0',
+833 verbose parsed url   path: 'chalk@^1.0.0',
+833 verbose parsed url   href: 'chalk@^1.0.0' }
+834 verbose cache add name="chalk" spec="^1.0.0" args=["chalk","^1.0.0"]
+835 verbose parsed url { protocol: null,
+835 verbose parsed url   slashes: null,
+835 verbose parsed url   auth: null,
+835 verbose parsed url   host: null,
+835 verbose parsed url   port: null,
+835 verbose parsed url   hostname: null,
+835 verbose parsed url   hash: null,
+835 verbose parsed url   search: null,
+835 verbose parsed url   query: null,
+835 verbose parsed url   pathname: '^1.0.0',
+835 verbose parsed url   path: '^1.0.0',
+835 verbose parsed url   href: '^1.0.0' }
+836 verbose addNamed [ 'chalk', '^1.0.0' ]
+837 verbose addNamed [ null, null ]
+838 silly lockFile 2b6848f7-chalk-1-0-0 chalk@^1.0.0
+839 verbose lock chalk@^1.0.0 C:\Users\Pramod\AppData\Roaming\npm-cache\2b6848f7-chalk-1-0-0.lock
+840 verbose cache add [ 'colors@^1.1.0', null ]
+841 verbose cache add name=undefined spec="colors@^1.1.0" args=["colors@^1.1.0",null]
+842 verbose parsed url { protocol: null,
+842 verbose parsed url   slashes: null,
+842 verbose parsed url   auth: null,
+842 verbose parsed url   host: null,
+842 verbose parsed url   port: null,
+842 verbose parsed url   hostname: null,
+842 verbose parsed url   hash: null,
+842 verbose parsed url   search: null,
+842 verbose parsed url   query: null,
+842 verbose parsed url   pathname: 'colors@^1.1.0',
+842 verbose parsed url   path: 'colors@^1.1.0',
+842 verbose parsed url   href: 'colors@^1.1.0' }
+843 verbose cache add name="colors" spec="^1.1.0" args=["colors","^1.1.0"]
+844 verbose parsed url { protocol: null,
+844 verbose parsed url   slashes: null,
+844 verbose parsed url   auth: null,
+844 verbose parsed url   host: null,
+844 verbose parsed url   port: null,
+844 verbose parsed url   hostname: null,
+844 verbose parsed url   hash: null,
+844 verbose parsed url   search: null,
+844 verbose parsed url   query: null,
+844 verbose parsed url   pathname: '^1.1.0',
+844 verbose parsed url   path: '^1.1.0',
+844 verbose parsed url   href: '^1.1.0' }
+845 verbose addNamed [ 'colors', '^1.1.0' ]
+846 verbose addNamed [ null, null ]
+847 silly lockFile bae70f23-colors-1-1-0 colors@^1.1.0
+848 verbose lock colors@^1.1.0 C:\Users\Pramod\AppData\Roaming\npm-cache\bae70f23-colors-1-1-0.lock
+849 verbose cache add [ 'deep-freeze@0.0.1', null ]
+850 verbose cache add name=undefined spec="deep-freeze@0.0.1" args=["deep-freeze@0.0.1",null]
+851 verbose parsed url { protocol: null,
+851 verbose parsed url   slashes: null,
+851 verbose parsed url   auth: null,
+851 verbose parsed url   host: null,
+851 verbose parsed url   port: null,
+851 verbose parsed url   hostname: null,
+851 verbose parsed url   hash: null,
+851 verbose parsed url   search: null,
+851 verbose parsed url   query: null,
+851 verbose parsed url   pathname: 'deep-freeze@0.0.1',
+851 verbose parsed url   path: 'deep-freeze@0.0.1',
+851 verbose parsed url   href: 'deep-freeze@0.0.1' }
+852 verbose cache add name="deep-freeze" spec="0.0.1" args=["deep-freeze","0.0.1"]
+853 verbose parsed url { protocol: null,
+853 verbose parsed url   slashes: null,
+853 verbose parsed url   auth: null,
+853 verbose parsed url   host: null,
+853 verbose parsed url   port: null,
+853 verbose parsed url   hostname: null,
+853 verbose parsed url   hash: null,
+853 verbose parsed url   search: null,
+853 verbose parsed url   query: null,
+853 verbose parsed url   pathname: '0.0.1',
+853 verbose parsed url   path: '0.0.1',
+853 verbose parsed url   href: '0.0.1' }
+854 verbose addNamed [ 'deep-freeze', '0.0.1' ]
+855 verbose addNamed [ '0.0.1', '0.0.1' ]
+856 silly lockFile f427d854-deep-freeze-0-0-1 deep-freeze@0.0.1
+857 verbose lock deep-freeze@0.0.1 C:\Users\Pramod\AppData\Roaming\npm-cache\f427d854-deep-freeze-0-0-1.lock
+858 verbose cache add [ 'definition-header@~0.1.0', null ]
+859 verbose cache add name=undefined spec="definition-header@~0.1.0" args=["definition-header@~0.1.0",null]
+860 verbose parsed url { protocol: null,
+860 verbose parsed url   slashes: null,
+860 verbose parsed url   auth: null,
+860 verbose parsed url   host: null,
+860 verbose parsed url   port: null,
+860 verbose parsed url   hostname: null,
+860 verbose parsed url   hash: null,
+860 verbose parsed url   search: null,
+860 verbose parsed url   query: null,
+860 verbose parsed url   pathname: 'definition-header@~0.1.0',
+860 verbose parsed url   path: 'definition-header@~0.1.0',
+860 verbose parsed url   href: 'definition-header@~0.1.0' }
+861 verbose cache add name="definition-header" spec="~0.1.0" args=["definition-header","~0.1.0"]
+862 verbose parsed url { protocol: null,
+862 verbose parsed url   slashes: null,
+862 verbose parsed url   auth: null,
+862 verbose parsed url   host: null,
+862 verbose parsed url   port: null,
+862 verbose parsed url   hostname: null,
+862 verbose parsed url   hash: null,
+862 verbose parsed url   search: null,
+862 verbose parsed url   query: null,
+862 verbose parsed url   pathname: '~0.1.0',
+862 verbose parsed url   path: '~0.1.0',
+862 verbose parsed url   href: '~0.1.0' }
+863 verbose addNamed [ 'definition-header', '~0.1.0' ]
+864 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+865 silly lockFile def0fdc8-definition-header-0-1-0 definition-header@~0.1.0
+866 verbose lock definition-header@~0.1.0 C:\Users\Pramod\AppData\Roaming\npm-cache\def0fdc8-definition-header-0-1-0.lock
+867 verbose cache add [ 'detect-indent@^0.2.0', null ]
+868 verbose cache add name=undefined spec="detect-indent@^0.2.0" args=["detect-indent@^0.2.0",null]
+869 verbose parsed url { protocol: null,
+869 verbose parsed url   slashes: null,
+869 verbose parsed url   auth: null,
+869 verbose parsed url   host: null,
+869 verbose parsed url   port: null,
+869 verbose parsed url   hostname: null,
+869 verbose parsed url   hash: null,
+869 verbose parsed url   search: null,
+869 verbose parsed url   query: null,
+869 verbose parsed url   pathname: 'detect-indent@^0.2.0',
+869 verbose parsed url   path: 'detect-indent@^0.2.0',
+869 verbose parsed url   href: 'detect-indent@^0.2.0' }
+870 verbose cache add name="detect-indent" spec="^0.2.0" args=["detect-indent","^0.2.0"]
+871 verbose parsed url { protocol: null,
+871 verbose parsed url   slashes: null,
+871 verbose parsed url   auth: null,
+871 verbose parsed url   host: null,
+871 verbose parsed url   port: null,
+871 verbose parsed url   hostname: null,
+871 verbose parsed url   hash: null,
+871 verbose parsed url   search: null,
+871 verbose parsed url   query: null,
+871 verbose parsed url   pathname: '^0.2.0',
+871 verbose parsed url   path: '^0.2.0',
+871 verbose parsed url   href: '^0.2.0' }
+872 verbose addNamed [ 'detect-indent', '^0.2.0' ]
+873 verbose addNamed [ null, null ]
+874 silly lockFile d7d33610-detect-indent-0-2-0 detect-indent@^0.2.0
+875 verbose lock detect-indent@^0.2.0 C:\Users\Pramod\AppData\Roaming\npm-cache\d7d33610-detect-indent-0-2-0.lock
+876 verbose cache add [ 'diff@^1.4.0', null ]
+877 verbose cache add name=undefined spec="diff@^1.4.0" args=["diff@^1.4.0",null]
+878 verbose parsed url { protocol: null,
+878 verbose parsed url   slashes: null,
+878 verbose parsed url   auth: null,
+878 verbose parsed url   host: null,
+878 verbose parsed url   port: null,
+878 verbose parsed url   hostname: null,
+878 verbose parsed url   hash: null,
+878 verbose parsed url   search: null,
+878 verbose parsed url   query: null,
+878 verbose parsed url   pathname: 'diff@^1.4.0',
+878 verbose parsed url   path: 'diff@^1.4.0',
+878 verbose parsed url   href: 'diff@^1.4.0' }
+879 verbose cache add name="diff" spec="^1.4.0" args=["diff","^1.4.0"]
+880 verbose parsed url { protocol: null,
+880 verbose parsed url   slashes: null,
+880 verbose parsed url   auth: null,
+880 verbose parsed url   host: null,
+880 verbose parsed url   port: null,
+880 verbose parsed url   hostname: null,
+880 verbose parsed url   hash: null,
+880 verbose parsed url   search: null,
+880 verbose parsed url   query: null,
+880 verbose parsed url   pathname: '^1.4.0',
+880 verbose parsed url   path: '^1.4.0',
+880 verbose parsed url   href: '^1.4.0' }
+881 verbose addNamed [ 'diff', '^1.4.0' ]
+882 verbose addNamed [ null, null ]
+883 silly lockFile 93cf8a36-diff-1-4-0 diff@^1.4.0
+884 verbose lock diff@^1.4.0 C:\Users\Pramod\AppData\Roaming\npm-cache\93cf8a36-diff-1-4-0.lock
+885 verbose cache add [ 'event-stream@~3.1.5', null ]
+886 verbose cache add name=undefined spec="event-stream@~3.1.5" args=["event-stream@~3.1.5",null]
+887 verbose parsed url { protocol: null,
+887 verbose parsed url   slashes: null,
+887 verbose parsed url   auth: null,
+887 verbose parsed url   host: null,
+887 verbose parsed url   port: null,
+887 verbose parsed url   hostname: null,
+887 verbose parsed url   hash: null,
+887 verbose parsed url   search: null,
+887 verbose parsed url   query: null,
+887 verbose parsed url   pathname: 'event-stream@~3.1.5',
+887 verbose parsed url   path: 'event-stream@~3.1.5',
+887 verbose parsed url   href: 'event-stream@~3.1.5' }
+888 verbose cache add name="event-stream" spec="~3.1.5" args=["event-stream","~3.1.5"]
+889 verbose parsed url { protocol: null,
+889 verbose parsed url   slashes: null,
+889 verbose parsed url   auth: null,
+889 verbose parsed url   host: null,
+889 verbose parsed url   port: null,
+889 verbose parsed url   hostname: null,
+889 verbose parsed url   hash: null,
+889 verbose parsed url   search: null,
+889 verbose parsed url   query: null,
+889 verbose parsed url   pathname: '~3.1.5',
+889 verbose parsed url   path: '~3.1.5',
+889 verbose parsed url   href: '~3.1.5' }
+890 verbose addNamed [ 'event-stream', '~3.1.5' ]
+891 verbose addNamed [ null, '>=3.1.5- <3.2.0-' ]
+892 silly lockFile 9bc5a8cc-event-stream-3-1-5 event-stream@~3.1.5
+893 verbose lock event-stream@~3.1.5 C:\Users\Pramod\AppData\Roaming\npm-cache\9bc5a8cc-event-stream-3-1-5.lock
+894 verbose cache add [ 'exit@~0.1.2', null ]
+895 verbose cache add name=undefined spec="exit@~0.1.2" args=["exit@~0.1.2",null]
+896 verbose parsed url { protocol: null,
+896 verbose parsed url   slashes: null,
+896 verbose parsed url   auth: null,
+896 verbose parsed url   host: null,
+896 verbose parsed url   port: null,
+896 verbose parsed url   hostname: null,
+896 verbose parsed url   hash: null,
+896 verbose parsed url   search: null,
+896 verbose parsed url   query: null,
+896 verbose parsed url   pathname: 'exit@~0.1.2',
+896 verbose parsed url   path: 'exit@~0.1.2',
+896 verbose parsed url   href: 'exit@~0.1.2' }
+897 verbose cache add name="exit" spec="~0.1.2" args=["exit","~0.1.2"]
+898 verbose parsed url { protocol: null,
+898 verbose parsed url   slashes: null,
+898 verbose parsed url   auth: null,
+898 verbose parsed url   host: null,
+898 verbose parsed url   port: null,
+898 verbose parsed url   hostname: null,
+898 verbose parsed url   hash: null,
+898 verbose parsed url   search: null,
+898 verbose parsed url   query: null,
+898 verbose parsed url   pathname: '~0.1.2',
+898 verbose parsed url   path: '~0.1.2',
+898 verbose parsed url   href: '~0.1.2' }
+899 verbose addNamed [ 'exit', '~0.1.2' ]
+900 verbose addNamed [ null, '>=0.1.2- <0.2.0-' ]
+901 silly lockFile f69f0446-exit-0-1-2 exit@~0.1.2
+902 verbose lock exit@~0.1.2 C:\Users\Pramod\AppData\Roaming\npm-cache\f69f0446-exit-0-1-2.lock
+903 verbose cache add [ 'glob@^4.0.6', null ]
+904 verbose cache add name=undefined spec="glob@^4.0.6" args=["glob@^4.0.6",null]
+905 verbose parsed url { protocol: null,
+905 verbose parsed url   slashes: null,
+905 verbose parsed url   auth: null,
+905 verbose parsed url   host: null,
+905 verbose parsed url   port: null,
+905 verbose parsed url   hostname: null,
+905 verbose parsed url   hash: null,
+905 verbose parsed url   search: null,
+905 verbose parsed url   query: null,
+905 verbose parsed url   pathname: 'glob@^4.0.6',
+905 verbose parsed url   path: 'glob@^4.0.6',
+905 verbose parsed url   href: 'glob@^4.0.6' }
+906 verbose cache add name="glob" spec="^4.0.6" args=["glob","^4.0.6"]
+907 verbose parsed url { protocol: null,
+907 verbose parsed url   slashes: null,
+907 verbose parsed url   auth: null,
+907 verbose parsed url   host: null,
+907 verbose parsed url   port: null,
+907 verbose parsed url   hostname: null,
+907 verbose parsed url   hash: null,
+907 verbose parsed url   search: null,
+907 verbose parsed url   query: null,
+907 verbose parsed url   pathname: '^4.0.6',
+907 verbose parsed url   path: '^4.0.6',
+907 verbose parsed url   href: '^4.0.6' }
+908 verbose addNamed [ 'glob', '^4.0.6' ]
+909 verbose addNamed [ null, null ]
+910 silly lockFile 5121319b-glob-4-0-6 glob@^4.0.6
+911 verbose lock glob@^4.0.6 C:\Users\Pramod\AppData\Roaming\npm-cache\5121319b-glob-4-0-6.lock
+912 verbose cache add [ 'joi@^4.7.0', null ]
+913 verbose cache add name=undefined spec="joi@^4.7.0" args=["joi@^4.7.0",null]
+914 verbose parsed url { protocol: null,
+914 verbose parsed url   slashes: null,
+914 verbose parsed url   auth: null,
+914 verbose parsed url   host: null,
+914 verbose parsed url   port: null,
+914 verbose parsed url   hostname: null,
+914 verbose parsed url   hash: null,
+914 verbose parsed url   search: null,
+914 verbose parsed url   query: null,
+914 verbose parsed url   pathname: 'joi@^4.7.0',
+914 verbose parsed url   path: 'joi@^4.7.0',
+914 verbose parsed url   href: 'joi@^4.7.0' }
+915 verbose cache add name="joi" spec="^4.7.0" args=["joi","^4.7.0"]
+916 verbose parsed url { protocol: null,
+916 verbose parsed url   slashes: null,
+916 verbose parsed url   auth: null,
+916 verbose parsed url   host: null,
+916 verbose parsed url   port: null,
+916 verbose parsed url   hostname: null,
+916 verbose parsed url   hash: null,
+916 verbose parsed url   search: null,
+916 verbose parsed url   query: null,
+916 verbose parsed url   pathname: '^4.7.0',
+916 verbose parsed url   path: '^4.7.0',
+916 verbose parsed url   href: '^4.7.0' }
+917 verbose addNamed [ 'joi', '^4.7.0' ]
+918 verbose addNamed [ null, null ]
+919 silly lockFile d2844e06-joi-4-7-0 joi@^4.7.0
+920 verbose lock joi@^4.7.0 C:\Users\Pramod\AppData\Roaming\npm-cache\d2844e06-joi-4-7-0.lock
+921 verbose cache add [ 'joi-assert@0.0.3', null ]
+922 verbose cache add name=undefined spec="joi-assert@0.0.3" args=["joi-assert@0.0.3",null]
+923 verbose parsed url { protocol: null,
+923 verbose parsed url   slashes: null,
+923 verbose parsed url   auth: null,
+923 verbose parsed url   host: null,
+923 verbose parsed url   port: null,
+923 verbose parsed url   hostname: null,
+923 verbose parsed url   hash: null,
+923 verbose parsed url   search: null,
+923 verbose parsed url   query: null,
+923 verbose parsed url   pathname: 'joi-assert@0.0.3',
+923 verbose parsed url   path: 'joi-assert@0.0.3',
+923 verbose parsed url   href: 'joi-assert@0.0.3' }
+924 verbose cache add name="joi-assert" spec="0.0.3" args=["joi-assert","0.0.3"]
+925 verbose parsed url { protocol: null,
+925 verbose parsed url   slashes: null,
+925 verbose parsed url   auth: null,
+925 verbose parsed url   host: null,
+925 verbose parsed url   port: null,
+925 verbose parsed url   hostname: null,
+925 verbose parsed url   hash: null,
+925 verbose parsed url   search: null,
+925 verbose parsed url   query: null,
+925 verbose parsed url   pathname: '0.0.3',
+925 verbose parsed url   path: '0.0.3',
+925 verbose parsed url   href: '0.0.3' }
+926 verbose addNamed [ 'joi-assert', '0.0.3' ]
+927 verbose addNamed [ '0.0.3', '0.0.3' ]
+928 silly lockFile f0546e52-joi-assert-0-0-3 joi-assert@0.0.3
+929 verbose lock joi-assert@0.0.3 C:\Users\Pramod\AppData\Roaming\npm-cache\f0546e52-joi-assert-0-0-3.lock
+930 verbose cache add [ 'jsesc@^0.5.0', null ]
+931 verbose cache add name=undefined spec="jsesc@^0.5.0" args=["jsesc@^0.5.0",null]
+932 verbose parsed url { protocol: null,
+932 verbose parsed url   slashes: null,
+932 verbose parsed url   auth: null,
+932 verbose parsed url   host: null,
+932 verbose parsed url   port: null,
+932 verbose parsed url   hostname: null,
+932 verbose parsed url   hash: null,
+932 verbose parsed url   search: null,
+932 verbose parsed url   query: null,
+932 verbose parsed url   pathname: 'jsesc@^0.5.0',
+932 verbose parsed url   path: 'jsesc@^0.5.0',
+932 verbose parsed url   href: 'jsesc@^0.5.0' }
+933 verbose cache add name="jsesc" spec="^0.5.0" args=["jsesc","^0.5.0"]
+934 verbose parsed url { protocol: null,
+934 verbose parsed url   slashes: null,
+934 verbose parsed url   auth: null,
+934 verbose parsed url   host: null,
+934 verbose parsed url   port: null,
+934 verbose parsed url   hostname: null,
+934 verbose parsed url   hash: null,
+934 verbose parsed url   search: null,
+934 verbose parsed url   query: null,
+934 verbose parsed url   pathname: '^0.5.0',
+934 verbose parsed url   path: '^0.5.0',
+934 verbose parsed url   href: '^0.5.0' }
+935 verbose addNamed [ 'jsesc', '^0.5.0' ]
+936 verbose addNamed [ null, null ]
+937 silly lockFile 92e8d999-jsesc-0-5-0 jsesc@^0.5.0
+938 verbose lock jsesc@^0.5.0 C:\Users\Pramod\AppData\Roaming\npm-cache\92e8d999-jsesc-0-5-0.lock
+939 verbose cache add [ 'json-pointer@^0.2.2', null ]
+940 verbose cache add name=undefined spec="json-pointer@^0.2.2" args=["json-pointer@^0.2.2",null]
+941 verbose parsed url { protocol: null,
+941 verbose parsed url   slashes: null,
+941 verbose parsed url   auth: null,
+941 verbose parsed url   host: null,
+941 verbose parsed url   port: null,
+941 verbose parsed url   hostname: null,
+941 verbose parsed url   hash: null,
+941 verbose parsed url   search: null,
+941 verbose parsed url   query: null,
+941 verbose parsed url   pathname: 'json-pointer@^0.2.2',
+941 verbose parsed url   path: 'json-pointer@^0.2.2',
+941 verbose parsed url   href: 'json-pointer@^0.2.2' }
+942 verbose cache add name="json-pointer" spec="^0.2.2" args=["json-pointer","^0.2.2"]
+943 verbose parsed url { protocol: null,
+943 verbose parsed url   slashes: null,
+943 verbose parsed url   auth: null,
+943 verbose parsed url   host: null,
+943 verbose parsed url   port: null,
+943 verbose parsed url   hostname: null,
+943 verbose parsed url   hash: null,
+943 verbose parsed url   search: null,
+943 verbose parsed url   query: null,
+943 verbose parsed url   pathname: '^0.2.2',
+943 verbose parsed url   path: '^0.2.2',
+943 verbose parsed url   href: '^0.2.2' }
+944 verbose addNamed [ 'json-pointer', '^0.2.2' ]
+945 verbose addNamed [ null, null ]
+946 silly lockFile 3655be2b-json-pointer-0-2-2 json-pointer@^0.2.2
+947 verbose lock json-pointer@^0.2.2 C:\Users\Pramod\AppData\Roaming\npm-cache\3655be2b-json-pointer-0-2-2.lock
+948 verbose cache add [ 'lazy.js@~0.3.2', null ]
+949 verbose cache add name=undefined spec="lazy.js@~0.3.2" args=["lazy.js@~0.3.2",null]
+950 verbose parsed url { protocol: null,
+950 verbose parsed url   slashes: null,
+950 verbose parsed url   auth: null,
+950 verbose parsed url   host: null,
+950 verbose parsed url   port: null,
+950 verbose parsed url   hostname: null,
+950 verbose parsed url   hash: null,
+950 verbose parsed url   search: null,
+950 verbose parsed url   query: null,
+950 verbose parsed url   pathname: 'lazy.js@~0.3.2',
+950 verbose parsed url   path: 'lazy.js@~0.3.2',
+950 verbose parsed url   href: 'lazy.js@~0.3.2' }
+951 verbose cache add name="lazy.js" spec="~0.3.2" args=["lazy.js","~0.3.2"]
+952 verbose parsed url { protocol: null,
+952 verbose parsed url   slashes: null,
+952 verbose parsed url   auth: null,
+952 verbose parsed url   host: null,
+952 verbose parsed url   port: null,
+952 verbose parsed url   hostname: null,
+952 verbose parsed url   hash: null,
+952 verbose parsed url   search: null,
+952 verbose parsed url   query: null,
+952 verbose parsed url   pathname: '~0.3.2',
+952 verbose parsed url   path: '~0.3.2',
+952 verbose parsed url   href: '~0.3.2' }
+953 verbose addNamed [ 'lazy.js', '~0.3.2' ]
+954 verbose addNamed [ null, '>=0.3.2- <0.4.0-' ]
+955 silly lockFile 67ba6002-lazy-js-0-3-2 lazy.js@~0.3.2
+956 verbose lock lazy.js@~0.3.2 C:\Users\Pramod\AppData\Roaming\npm-cache\67ba6002-lazy-js-0-3-2.lock
+957 verbose cache add [ 'lru-cache@~2.5.0', null ]
+958 verbose cache add name=undefined spec="lru-cache@~2.5.0" args=["lru-cache@~2.5.0",null]
+959 verbose parsed url { protocol: null,
+959 verbose parsed url   slashes: null,
+959 verbose parsed url   auth: null,
+959 verbose parsed url   host: null,
+959 verbose parsed url   port: null,
+959 verbose parsed url   hostname: null,
+959 verbose parsed url   hash: null,
+959 verbose parsed url   search: null,
+959 verbose parsed url   query: null,
+959 verbose parsed url   pathname: 'lru-cache@~2.5.0',
+959 verbose parsed url   path: 'lru-cache@~2.5.0',
+959 verbose parsed url   href: 'lru-cache@~2.5.0' }
+960 verbose cache add name="lru-cache" spec="~2.5.0" args=["lru-cache","~2.5.0"]
+961 verbose parsed url { protocol: null,
+961 verbose parsed url   slashes: null,
+961 verbose parsed url   auth: null,
+961 verbose parsed url   host: null,
+961 verbose parsed url   port: null,
+961 verbose parsed url   hostname: null,
+961 verbose parsed url   hash: null,
+961 verbose parsed url   search: null,
+961 verbose parsed url   query: null,
+961 verbose parsed url   pathname: '~2.5.0',
+961 verbose parsed url   path: '~2.5.0',
+961 verbose parsed url   href: '~2.5.0' }
+962 verbose addNamed [ 'lru-cache', '~2.5.0' ]
+963 verbose addNamed [ null, '>=2.5.0- <2.6.0-' ]
+964 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+965 verbose lock lru-cache@~2.5.0 C:\Users\Pramod\AppData\Roaming\npm-cache\d9ec30b5-lru-cache-2-5-0.lock
+966 verbose cache add [ 'minimatch@^1.0.0', null ]
+967 verbose cache add name=undefined spec="minimatch@^1.0.0" args=["minimatch@^1.0.0",null]
+968 verbose parsed url { protocol: null,
+968 verbose parsed url   slashes: null,
+968 verbose parsed url   auth: null,
+968 verbose parsed url   host: null,
+968 verbose parsed url   port: null,
+968 verbose parsed url   hostname: null,
+968 verbose parsed url   hash: null,
+968 verbose parsed url   search: null,
+968 verbose parsed url   query: null,
+968 verbose parsed url   pathname: 'minimatch@^1.0.0',
+968 verbose parsed url   path: 'minimatch@^1.0.0',
+968 verbose parsed url   href: 'minimatch@^1.0.0' }
+969 verbose cache add name="minimatch" spec="^1.0.0" args=["minimatch","^1.0.0"]
+970 verbose parsed url { protocol: null,
+970 verbose parsed url   slashes: null,
+970 verbose parsed url   auth: null,
+970 verbose parsed url   host: null,
+970 verbose parsed url   port: null,
+970 verbose parsed url   hostname: null,
+970 verbose parsed url   hash: null,
+970 verbose parsed url   search: null,
+970 verbose parsed url   query: null,
+970 verbose parsed url   pathname: '^1.0.0',
+970 verbose parsed url   path: '^1.0.0',
+970 verbose parsed url   href: '^1.0.0' }
+971 verbose addNamed [ 'minimatch', '^1.0.0' ]
+972 verbose addNamed [ null, null ]
+973 silly lockFile 9a219ca8-minimatch-1-0-0 minimatch@^1.0.0
+974 verbose lock minimatch@^1.0.0 C:\Users\Pramod\AppData\Roaming\npm-cache\9a219ca8-minimatch-1-0-0.lock
+975 verbose cache add [ 'minimist@^1.1.0', null ]
+976 verbose cache add name=undefined spec="minimist@^1.1.0" args=["minimist@^1.1.0",null]
+977 verbose parsed url { protocol: null,
+977 verbose parsed url   slashes: null,
+977 verbose parsed url   auth: null,
+977 verbose parsed url   host: null,
+977 verbose parsed url   port: null,
+977 verbose parsed url   hostname: null,
+977 verbose parsed url   hash: null,
+977 verbose parsed url   search: null,
+977 verbose parsed url   query: null,
+977 verbose parsed url   pathname: 'minimist@^1.1.0',
+977 verbose parsed url   path: 'minimist@^1.1.0',
+977 verbose parsed url   href: 'minimist@^1.1.0' }
+978 verbose cache add name="minimist" spec="^1.1.0" args=["minimist","^1.1.0"]
+979 verbose parsed url { protocol: null,
+979 verbose parsed url   slashes: null,
+979 verbose parsed url   auth: null,
+979 verbose parsed url   host: null,
+979 verbose parsed url   port: null,
+979 verbose parsed url   hostname: null,
+979 verbose parsed url   hash: null,
+979 verbose parsed url   search: null,
+979 verbose parsed url   query: null,
+979 verbose parsed url   pathname: '^1.1.0',
+979 verbose parsed url   path: '^1.1.0',
+979 verbose parsed url   href: '^1.1.0' }
+980 verbose addNamed [ 'minimist', '^1.1.0' ]
+981 verbose addNamed [ null, null ]
+982 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+983 verbose lock minimist@^1.1.0 C:\Users\Pramod\AppData\Roaming\npm-cache\b7cda548-minimist-1-1-0.lock
+984 verbose cache add [ 'ministyle@~0.1.3', null ]
+985 verbose cache add name=undefined spec="ministyle@~0.1.3" args=["ministyle@~0.1.3",null]
+986 verbose parsed url { protocol: null,
+986 verbose parsed url   slashes: null,
+986 verbose parsed url   auth: null,
+986 verbose parsed url   host: null,
+986 verbose parsed url   port: null,
+986 verbose parsed url   hostname: null,
+986 verbose parsed url   hash: null,
+986 verbose parsed url   search: null,
+986 verbose parsed url   query: null,
+986 verbose parsed url   pathname: 'ministyle@~0.1.3',
+986 verbose parsed url   path: 'ministyle@~0.1.3',
+986 verbose parsed url   href: 'ministyle@~0.1.3' }
+987 verbose cache add name="ministyle" spec="~0.1.3" args=["ministyle","~0.1.3"]
+988 verbose parsed url { protocol: null,
+988 verbose parsed url   slashes: null,
+988 verbose parsed url   auth: null,
+988 verbose parsed url   host: null,
+988 verbose parsed url   port: null,
+988 verbose parsed url   hostname: null,
+988 verbose parsed url   hash: null,
+988 verbose parsed url   search: null,
+988 verbose parsed url   query: null,
+988 verbose parsed url   pathname: '~0.1.3',
+988 verbose parsed url   path: '~0.1.3',
+988 verbose parsed url   href: '~0.1.3' }
+989 verbose addNamed [ 'ministyle', '~0.1.3' ]
+990 verbose addNamed [ null, '>=0.1.3- <0.2.0-' ]
+991 silly lockFile 33b2259b-ministyle-0-1-3 ministyle@~0.1.3
+992 verbose lock ministyle@~0.1.3 C:\Users\Pramod\AppData\Roaming\npm-cache\33b2259b-ministyle-0-1-3.lock
+993 verbose cache add [ 'minitable@0.0.4', null ]
+994 verbose cache add name=undefined spec="minitable@0.0.4" args=["minitable@0.0.4",null]
+995 verbose parsed url { protocol: null,
+995 verbose parsed url   slashes: null,
+995 verbose parsed url   auth: null,
+995 verbose parsed url   host: null,
+995 verbose parsed url   port: null,
+995 verbose parsed url   hostname: null,
+995 verbose parsed url   hash: null,
+995 verbose parsed url   search: null,
+995 verbose parsed url   query: null,
+995 verbose parsed url   pathname: 'minitable@0.0.4',
+995 verbose parsed url   path: 'minitable@0.0.4',
+995 verbose parsed url   href: 'minitable@0.0.4' }
+996 verbose cache add name="minitable" spec="0.0.4" args=["minitable","0.0.4"]
+997 verbose parsed url { protocol: null,
+997 verbose parsed url   slashes: null,
+997 verbose parsed url   auth: null,
+997 verbose parsed url   host: null,
+997 verbose parsed url   port: null,
+997 verbose parsed url   hostname: null,
+997 verbose parsed url   hash: null,
+997 verbose parsed url   search: null,
+997 verbose parsed url   query: null,
+997 verbose parsed url   pathname: '0.0.4',
+997 verbose parsed url   path: '0.0.4',
+997 verbose parsed url   href: '0.0.4' }
+998 verbose addNamed [ 'minitable', '0.0.4' ]
+999 verbose addNamed [ '0.0.4', '0.0.4' ]
+1000 silly lockFile b0eb4483-minitable-0-0-4 minitable@0.0.4
+1001 verbose lock minitable@0.0.4 C:\Users\Pramod\AppData\Roaming\npm-cache\b0eb4483-minitable-0-0-4.lock
+1002 verbose cache add [ 'miniwrite@~0.1.3', null ]
+1003 verbose cache add name=undefined spec="miniwrite@~0.1.3" args=["miniwrite@~0.1.3",null]
+1004 verbose parsed url { protocol: null,
+1004 verbose parsed url   slashes: null,
+1004 verbose parsed url   auth: null,
+1004 verbose parsed url   host: null,
+1004 verbose parsed url   port: null,
+1004 verbose parsed url   hostname: null,
+1004 verbose parsed url   hash: null,
+1004 verbose parsed url   search: null,
+1004 verbose parsed url   query: null,
+1004 verbose parsed url   pathname: 'miniwrite@~0.1.3',
+1004 verbose parsed url   path: 'miniwrite@~0.1.3',
+1004 verbose parsed url   href: 'miniwrite@~0.1.3' }
+1005 verbose cache add name="miniwrite" spec="~0.1.3" args=["miniwrite","~0.1.3"]
+1006 verbose parsed url { protocol: null,
+1006 verbose parsed url   slashes: null,
+1006 verbose parsed url   auth: null,
+1006 verbose parsed url   host: null,
+1006 verbose parsed url   port: null,
+1006 verbose parsed url   hostname: null,
+1006 verbose parsed url   hash: null,
+1006 verbose parsed url   search: null,
+1006 verbose parsed url   query: null,
+1006 verbose parsed url   pathname: '~0.1.3',
+1006 verbose parsed url   path: '~0.1.3',
+1006 verbose parsed url   href: '~0.1.3' }
+1007 verbose addNamed [ 'miniwrite', '~0.1.3' ]
+1008 verbose addNamed [ null, '>=0.1.3- <0.2.0-' ]
+1009 silly lockFile 0cbc2735-miniwrite-0-1-3 miniwrite@~0.1.3
+1010 verbose lock miniwrite@~0.1.3 C:\Users\Pramod\AppData\Roaming\npm-cache\0cbc2735-miniwrite-0-1-3.lock
+1011 verbose cache add [ 'mkdirp@~0.5.0', null ]
+1012 verbose cache add name=undefined spec="mkdirp@~0.5.0" args=["mkdirp@~0.5.0",null]
+1013 verbose parsed url { protocol: null,
+1013 verbose parsed url   slashes: null,
+1013 verbose parsed url   auth: null,
+1013 verbose parsed url   host: null,
+1013 verbose parsed url   port: null,
+1013 verbose parsed url   hostname: null,
+1013 verbose parsed url   hash: null,
+1013 verbose parsed url   search: null,
+1013 verbose parsed url   query: null,
+1013 verbose parsed url   pathname: 'mkdirp@~0.5.0',
+1013 verbose parsed url   path: 'mkdirp@~0.5.0',
+1013 verbose parsed url   href: 'mkdirp@~0.5.0' }
+1014 verbose cache add name="mkdirp" spec="~0.5.0" args=["mkdirp","~0.5.0"]
+1015 verbose parsed url { protocol: null,
+1015 verbose parsed url   slashes: null,
+1015 verbose parsed url   auth: null,
+1015 verbose parsed url   host: null,
+1015 verbose parsed url   port: null,
+1015 verbose parsed url   hostname: null,
+1015 verbose parsed url   hash: null,
+1015 verbose parsed url   search: null,
+1015 verbose parsed url   query: null,
+1015 verbose parsed url   pathname: '~0.5.0',
+1015 verbose parsed url   path: '~0.5.0',
+1015 verbose parsed url   href: '~0.5.0' }
+1016 verbose addNamed [ 'mkdirp', '~0.5.0' ]
+1017 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+1018 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+1019 verbose lock mkdirp@~0.5.0 C:\Users\Pramod\AppData\Roaming\npm-cache\3880d7a6-mkdirp-0-5-0.lock
+1020 verbose cache add [ 'open@~0.0.5', null ]
+1021 verbose cache add name=undefined spec="open@~0.0.5" args=["open@~0.0.5",null]
+1022 verbose parsed url { protocol: null,
+1022 verbose parsed url   slashes: null,
+1022 verbose parsed url   auth: null,
+1022 verbose parsed url   host: null,
+1022 verbose parsed url   port: null,
+1022 verbose parsed url   hostname: null,
+1022 verbose parsed url   hash: null,
+1022 verbose parsed url   search: null,
+1022 verbose parsed url   query: null,
+1022 verbose parsed url   pathname: 'open@~0.0.5',
+1022 verbose parsed url   path: 'open@~0.0.5',
+1022 verbose parsed url   href: 'open@~0.0.5' }
+1023 verbose cache add name="open" spec="~0.0.5" args=["open","~0.0.5"]
+1024 verbose parsed url { protocol: null,
+1024 verbose parsed url   slashes: null,
+1024 verbose parsed url   auth: null,
+1024 verbose parsed url   host: null,
+1024 verbose parsed url   port: null,
+1024 verbose parsed url   hostname: null,
+1024 verbose parsed url   hash: null,
+1024 verbose parsed url   search: null,
+1024 verbose parsed url   query: null,
+1024 verbose parsed url   pathname: '~0.0.5',
+1024 verbose parsed url   path: '~0.0.5',
+1024 verbose parsed url   href: '~0.0.5' }
+1025 verbose addNamed [ 'open', '~0.0.5' ]
+1026 verbose addNamed [ null, '>=0.0.5- <0.1.0-' ]
+1027 silly lockFile 989989ea-open-0-0-5 open@~0.0.5
+1028 verbose lock open@~0.0.5 C:\Users\Pramod\AppData\Roaming\npm-cache\989989ea-open-0-0-5.lock
+1029 verbose cache add [ 'request@^2.45.0', null ]
+1030 verbose cache add name=undefined spec="request@^2.45.0" args=["request@^2.45.0",null]
+1031 verbose parsed url { protocol: null,
+1031 verbose parsed url   slashes: null,
+1031 verbose parsed url   auth: null,
+1031 verbose parsed url   host: null,
+1031 verbose parsed url   port: null,
+1031 verbose parsed url   hostname: null,
+1031 verbose parsed url   hash: null,
+1031 verbose parsed url   search: null,
+1031 verbose parsed url   query: null,
+1031 verbose parsed url   pathname: 'request@^2.45.0',
+1031 verbose parsed url   path: 'request@^2.45.0',
+1031 verbose parsed url   href: 'request@^2.45.0' }
+1032 verbose cache add name="request" spec="^2.45.0" args=["request","^2.45.0"]
+1033 verbose parsed url { protocol: null,
+1033 verbose parsed url   slashes: null,
+1033 verbose parsed url   auth: null,
+1033 verbose parsed url   host: null,
+1033 verbose parsed url   port: null,
+1033 verbose parsed url   hostname: null,
+1033 verbose parsed url   hash: null,
+1033 verbose parsed url   search: null,
+1033 verbose parsed url   query: null,
+1033 verbose parsed url   pathname: '^2.45.0',
+1033 verbose parsed url   path: '^2.45.0',
+1033 verbose parsed url   href: '^2.45.0' }
+1034 verbose addNamed [ 'request', '^2.45.0' ]
+1035 verbose addNamed [ null, null ]
+1036 silly lockFile d2547b3d-request-2-45-0 request@^2.45.0
+1037 verbose lock request@^2.45.0 C:\Users\Pramod\AppData\Roaming\npm-cache\d2547b3d-request-2-45-0.lock
+1038 verbose cache add [ 'rimraf@~2.2.8', null ]
+1039 verbose cache add name=undefined spec="rimraf@~2.2.8" args=["rimraf@~2.2.8",null]
+1040 verbose parsed url { protocol: null,
+1040 verbose parsed url   slashes: null,
+1040 verbose parsed url   auth: null,
+1040 verbose parsed url   host: null,
+1040 verbose parsed url   port: null,
+1040 verbose parsed url   hostname: null,
+1040 verbose parsed url   hash: null,
+1040 verbose parsed url   search: null,
+1040 verbose parsed url   query: null,
+1040 verbose parsed url   pathname: 'rimraf@~2.2.8',
+1040 verbose parsed url   path: 'rimraf@~2.2.8',
+1040 verbose parsed url   href: 'rimraf@~2.2.8' }
+1041 verbose cache add name="rimraf" spec="~2.2.8" args=["rimraf","~2.2.8"]
+1042 verbose parsed url { protocol: null,
+1042 verbose parsed url   slashes: null,
+1042 verbose parsed url   auth: null,
+1042 verbose parsed url   host: null,
+1042 verbose parsed url   port: null,
+1042 verbose parsed url   hostname: null,
+1042 verbose parsed url   hash: null,
+1042 verbose parsed url   search: null,
+1042 verbose parsed url   query: null,
+1042 verbose parsed url   pathname: '~2.2.8',
+1042 verbose parsed url   path: '~2.2.8',
+1042 verbose parsed url   href: '~2.2.8' }
+1043 verbose addNamed [ 'rimraf', '~2.2.8' ]
+1044 verbose addNamed [ null, '>=2.2.8- <2.3.0-' ]
+1045 silly lockFile 63346313-rimraf-2-2-8 rimraf@~2.2.8
+1046 verbose lock rimraf@~2.2.8 C:\Users\Pramod\AppData\Roaming\npm-cache\63346313-rimraf-2-2-8.lock
+1047 verbose cache add [ 'semver@^4.3.1', null ]
+1048 verbose cache add name=undefined spec="semver@^4.3.1" args=["semver@^4.3.1",null]
+1049 verbose parsed url { protocol: null,
+1049 verbose parsed url   slashes: null,
+1049 verbose parsed url   auth: null,
+1049 verbose parsed url   host: null,
+1049 verbose parsed url   port: null,
+1049 verbose parsed url   hostname: null,
+1049 verbose parsed url   hash: null,
+1049 verbose parsed url   search: null,
+1049 verbose parsed url   query: null,
+1049 verbose parsed url   pathname: 'semver@^4.3.1',
+1049 verbose parsed url   path: 'semver@^4.3.1',
+1049 verbose parsed url   href: 'semver@^4.3.1' }
+1050 verbose cache add name="semver" spec="^4.3.1" args=["semver","^4.3.1"]
+1051 verbose parsed url { protocol: null,
+1051 verbose parsed url   slashes: null,
+1051 verbose parsed url   auth: null,
+1051 verbose parsed url   host: null,
+1051 verbose parsed url   port: null,
+1051 verbose parsed url   hostname: null,
+1051 verbose parsed url   hash: null,
+1051 verbose parsed url   search: null,
+1051 verbose parsed url   query: null,
+1051 verbose parsed url   pathname: '^4.3.1',
+1051 verbose parsed url   path: '^4.3.1',
+1051 verbose parsed url   href: '^4.3.1' }
+1052 verbose addNamed [ 'semver', '^4.3.1' ]
+1053 verbose addNamed [ null, null ]
+1054 silly lockFile 7b988dd7-semver-4-3-1 semver@^4.3.1
+1055 verbose lock semver@^4.3.1 C:\Users\Pramod\AppData\Roaming\npm-cache\7b988dd7-semver-4-3-1.lock
+1056 verbose cache add [ 'type-detect@~0.1.2', null ]
+1057 verbose cache add name=undefined spec="type-detect@~0.1.2" args=["type-detect@~0.1.2",null]
+1058 verbose parsed url { protocol: null,
+1058 verbose parsed url   slashes: null,
+1058 verbose parsed url   auth: null,
+1058 verbose parsed url   host: null,
+1058 verbose parsed url   port: null,
+1058 verbose parsed url   hostname: null,
+1058 verbose parsed url   hash: null,
+1058 verbose parsed url   search: null,
+1058 verbose parsed url   query: null,
+1058 verbose parsed url   pathname: 'type-detect@~0.1.2',
+1058 verbose parsed url   path: 'type-detect@~0.1.2',
+1058 verbose parsed url   href: 'type-detect@~0.1.2' }
+1059 verbose cache add name="type-detect" spec="~0.1.2" args=["type-detect","~0.1.2"]
+1060 verbose parsed url { protocol: null,
+1060 verbose parsed url   slashes: null,
+1060 verbose parsed url   auth: null,
+1060 verbose parsed url   host: null,
+1060 verbose parsed url   port: null,
+1060 verbose parsed url   hostname: null,
+1060 verbose parsed url   hash: null,
+1060 verbose parsed url   search: null,
+1060 verbose parsed url   query: null,
+1060 verbose parsed url   pathname: '~0.1.2',
+1060 verbose parsed url   path: '~0.1.2',
+1060 verbose parsed url   href: '~0.1.2' }
+1061 verbose addNamed [ 'type-detect', '~0.1.2' ]
+1062 verbose addNamed [ null, '>=0.1.2- <0.2.0-' ]
+1063 silly lockFile 842f93a3-type-detect-0-1-2 type-detect@~0.1.2
+1064 verbose lock type-detect@~0.1.2 C:\Users\Pramod\AppData\Roaming\npm-cache\842f93a3-type-detect-0-1-2.lock
+1065 verbose cache add [ 'universal-analytics@~0.3.4', null ]
+1066 verbose cache add name=undefined spec="universal-analytics@~0.3.4" args=["universal-analytics@~0.3.4",null]
+1067 verbose parsed url { protocol: null,
+1067 verbose parsed url   slashes: null,
+1067 verbose parsed url   auth: null,
+1067 verbose parsed url   host: null,
+1067 verbose parsed url   port: null,
+1067 verbose parsed url   hostname: null,
+1067 verbose parsed url   hash: null,
+1067 verbose parsed url   search: null,
+1067 verbose parsed url   query: null,
+1067 verbose parsed url   pathname: 'universal-analytics@~0.3.4',
+1067 verbose parsed url   path: 'universal-analytics@~0.3.4',
+1067 verbose parsed url   href: 'universal-analytics@~0.3.4' }
+1068 verbose cache add name="universal-analytics" spec="~0.3.4" args=["universal-analytics","~0.3.4"]
+1069 verbose parsed url { protocol: null,
+1069 verbose parsed url   slashes: null,
+1069 verbose parsed url   auth: null,
+1069 verbose parsed url   host: null,
+1069 verbose parsed url   port: null,
+1069 verbose parsed url   hostname: null,
+1069 verbose parsed url   hash: null,
+1069 verbose parsed url   search: null,
+1069 verbose parsed url   query: null,
+1069 verbose parsed url   pathname: '~0.3.4',
+1069 verbose parsed url   path: '~0.3.4',
+1069 verbose parsed url   href: '~0.3.4' }
+1070 verbose addNamed [ 'universal-analytics', '~0.3.4' ]
+1071 verbose addNamed [ null, '>=0.3.4- <0.4.0-' ]
+1072 silly lockFile 39c93855-universal-analytics-0-3-4 universal-analytics@~0.3.4
+1073 verbose lock universal-analytics@~0.3.4 C:\Users\Pramod\AppData\Roaming\npm-cache\39c93855-universal-analytics-0-3-4.lock
+1074 verbose cache add [ 'update-notifier@^0.2.2', null ]
+1075 verbose cache add name=undefined spec="update-notifier@^0.2.2" args=["update-notifier@^0.2.2",null]
+1076 verbose parsed url { protocol: null,
+1076 verbose parsed url   slashes: null,
+1076 verbose parsed url   auth: null,
+1076 verbose parsed url   host: null,
+1076 verbose parsed url   port: null,
+1076 verbose parsed url   hostname: null,
+1076 verbose parsed url   hash: null,
+1076 verbose parsed url   search: null,
+1076 verbose parsed url   query: null,
+1076 verbose parsed url   pathname: 'update-notifier@^0.2.2',
+1076 verbose parsed url   path: 'update-notifier@^0.2.2',
+1076 verbose parsed url   href: 'update-notifier@^0.2.2' }
+1077 verbose cache add name="update-notifier" spec="^0.2.2" args=["update-notifier","^0.2.2"]
+1078 verbose parsed url { protocol: null,
+1078 verbose parsed url   slashes: null,
+1078 verbose parsed url   auth: null,
+1078 verbose parsed url   host: null,
+1078 verbose parsed url   port: null,
+1078 verbose parsed url   hostname: null,
+1078 verbose parsed url   hash: null,
+1078 verbose parsed url   search: null,
+1078 verbose parsed url   query: null,
+1078 verbose parsed url   pathname: '^0.2.2',
+1078 verbose parsed url   path: '^0.2.2',
+1078 verbose parsed url   href: '^0.2.2' }
+1079 verbose addNamed [ 'update-notifier', '^0.2.2' ]
+1080 verbose addNamed [ null, null ]
+1081 silly lockFile 02da3be7-update-notifier-0-2-2 update-notifier@^0.2.2
+1082 verbose lock update-notifier@^0.2.2 C:\Users\Pramod\AppData\Roaming\npm-cache\02da3be7-update-notifier-0-2-2.lock
+1083 verbose cache add [ 'uri-templates@~0.1.5', null ]
+1084 verbose cache add name=undefined spec="uri-templates@~0.1.5" args=["uri-templates@~0.1.5",null]
+1085 verbose parsed url { protocol: null,
+1085 verbose parsed url   slashes: null,
+1085 verbose parsed url   auth: null,
+1085 verbose parsed url   host: null,
+1085 verbose parsed url   port: null,
+1085 verbose parsed url   hostname: null,
+1085 verbose parsed url   hash: null,
+1085 verbose parsed url   search: null,
+1085 verbose parsed url   query: null,
+1085 verbose parsed url   pathname: 'uri-templates@~0.1.5',
+1085 verbose parsed url   path: 'uri-templates@~0.1.5',
+1085 verbose parsed url   href: 'uri-templates@~0.1.5' }
+1086 verbose cache add name="uri-templates" spec="~0.1.5" args=["uri-templates","~0.1.5"]
+1087 verbose parsed url { protocol: null,
+1087 verbose parsed url   slashes: null,
+1087 verbose parsed url   auth: null,
+1087 verbose parsed url   host: null,
+1087 verbose parsed url   port: null,
+1087 verbose parsed url   hostname: null,
+1087 verbose parsed url   hash: null,
+1087 verbose parsed url   search: null,
+1087 verbose parsed url   query: null,
+1087 verbose parsed url   pathname: '~0.1.5',
+1087 verbose parsed url   path: '~0.1.5',
+1087 verbose parsed url   href: '~0.1.5' }
+1088 verbose addNamed [ 'uri-templates', '~0.1.5' ]
+1089 verbose addNamed [ null, '>=0.1.5- <0.2.0-' ]
+1090 silly lockFile 8fb2cff9-uri-templates-0-1-5 uri-templates@~0.1.5
+1091 verbose lock uri-templates@~0.1.5 C:\Users\Pramod\AppData\Roaming\npm-cache\8fb2cff9-uri-templates-0-1-5.lock
+1092 info addNameTag [ 'bl', '^0.9.3' ]
+1093 silly addNameRange { name: 'bluebird', range: '>=1.2.4- <1.3.0-', hasData: false }
+1094 info addNameTag [ 'chalk', '^1.0.0' ]
+1095 verbose cache add [ 'uuid@^2.0.1', null ]
+1096 verbose cache add name=undefined spec="uuid@^2.0.1" args=["uuid@^2.0.1",null]
+1097 verbose parsed url { protocol: null,
+1097 verbose parsed url   slashes: null,
+1097 verbose parsed url   auth: null,
+1097 verbose parsed url   host: null,
+1097 verbose parsed url   port: null,
+1097 verbose parsed url   hostname: null,
+1097 verbose parsed url   hash: null,
+1097 verbose parsed url   search: null,
+1097 verbose parsed url   query: null,
+1097 verbose parsed url   pathname: 'uuid@^2.0.1',
+1097 verbose parsed url   path: 'uuid@^2.0.1',
+1097 verbose parsed url   href: 'uuid@^2.0.1' }
+1098 verbose cache add name="uuid" spec="^2.0.1" args=["uuid","^2.0.1"]
+1099 verbose parsed url { protocol: null,
+1099 verbose parsed url   slashes: null,
+1099 verbose parsed url   auth: null,
+1099 verbose parsed url   host: null,
+1099 verbose parsed url   port: null,
+1099 verbose parsed url   hostname: null,
+1099 verbose parsed url   hash: null,
+1099 verbose parsed url   search: null,
+1099 verbose parsed url   query: null,
+1099 verbose parsed url   pathname: '^2.0.1',
+1099 verbose parsed url   path: '^2.0.1',
+1099 verbose parsed url   href: '^2.0.1' }
+1100 verbose addNamed [ 'uuid', '^2.0.1' ]
+1101 verbose addNamed [ null, null ]
+1102 silly lockFile 46292d1f-uuid-2-0-1 uuid@^2.0.1
+1103 verbose lock uuid@^2.0.1 C:\Users\Pramod\AppData\Roaming\npm-cache\46292d1f-uuid-2-0-1.lock
+1104 verbose cache add [ 'verror@~1.4.0', null ]
+1105 verbose cache add name=undefined spec="verror@~1.4.0" args=["verror@~1.4.0",null]
+1106 verbose parsed url { protocol: null,
+1106 verbose parsed url   slashes: null,
+1106 verbose parsed url   auth: null,
+1106 verbose parsed url   host: null,
+1106 verbose parsed url   port: null,
+1106 verbose parsed url   hostname: null,
+1106 verbose parsed url   hash: null,
+1106 verbose parsed url   search: null,
+1106 verbose parsed url   query: null,
+1106 verbose parsed url   pathname: 'verror@~1.4.0',
+1106 verbose parsed url   path: 'verror@~1.4.0',
+1106 verbose parsed url   href: 'verror@~1.4.0' }
+1107 verbose cache add name="verror" spec="~1.4.0" args=["verror","~1.4.0"]
+1108 verbose parsed url { protocol: null,
+1108 verbose parsed url   slashes: null,
+1108 verbose parsed url   auth: null,
+1108 verbose parsed url   host: null,
+1108 verbose parsed url   port: null,
+1108 verbose parsed url   hostname: null,
+1108 verbose parsed url   hash: null,
+1108 verbose parsed url   search: null,
+1108 verbose parsed url   query: null,
+1108 verbose parsed url   pathname: '~1.4.0',
+1108 verbose parsed url   path: '~1.4.0',
+1108 verbose parsed url   href: '~1.4.0' }
+1109 verbose addNamed [ 'verror', '~1.4.0' ]
+1110 verbose addNamed [ null, '>=1.4.0- <1.5.0-' ]
+1111 silly lockFile 07db8d03-verror-1-4-0 verror@~1.4.0
+1112 verbose lock verror@~1.4.0 C:\Users\Pramod\AppData\Roaming\npm-cache\07db8d03-verror-1-4-0.lock
+1113 info addNameTag [ 'joi', '^4.7.0' ]
+1114 info addNameTag [ 'detect-indent', '^0.2.0' ]
+1115 silly addNameRange { name: 'event-stream',
+1115 silly addNameRange   range: '>=3.1.5- <3.2.0-',
+1115 silly addNameRange   hasData: false }
+1116 silly addNameRange { name: 'definition-header',
+1116 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+1116 silly addNameRange   hasData: false }
+1117 info addNameTag [ 'json-pointer', '^0.2.2' ]
+1118 silly addNameRange { name: 'exit', range: '>=0.1.2- <0.2.0-', hasData: false }
+1119 info addNameTag [ 'glob', '^4.0.6' ]
+1120 info addNameTag [ 'colors', '^1.1.0' ]
+1121 info addNameTag [ 'jsesc', '^0.5.0' ]
+1122 silly addNameRange { name: 'lazy.js', range: '>=0.3.2- <0.4.0-', hasData: false }
+1123 silly addNameRange { name: 'lru-cache', range: '>=2.5.0- <2.6.0-', hasData: false }
+1124 info addNameTag [ 'minimatch', '^1.0.0' ]
+1125 info addNameTag [ 'diff', '^1.4.0' ]
+1126 info addNameTag [ 'minimist', '^1.1.0' ]
+1127 silly addNameRange { name: 'ministyle', range: '>=0.1.3- <0.2.0-', hasData: false }
+1128 silly addNameRange { name: 'miniwrite', range: '>=0.1.3- <0.2.0-', hasData: false }
+1129 silly addNameRange { name: 'mkdirp', range: '>=0.5.0- <0.6.0-', hasData: false }
+1130 silly addNameRange { name: 'open', range: '>=0.0.5- <0.1.0-', hasData: false }
+1131 info addNameTag [ 'request', '^2.45.0' ]
+1132 silly addNameRange { name: 'rimraf', range: '>=2.2.8- <2.3.0-', hasData: false }
+1133 info addNameTag [ 'semver', '^4.3.1' ]
+1134 silly addNameRange { name: 'type-detect',
+1134 silly addNameRange   range: '>=0.1.2- <0.2.0-',
+1134 silly addNameRange   hasData: false }
+1135 info addNameTag [ 'update-notifier', '^0.2.2' ]
+1136 silly addNameRange { name: 'uri-templates',
+1136 silly addNameRange   range: '>=0.1.5- <0.2.0-',
+1136 silly addNameRange   hasData: false }
+1137 verbose url raw assertion-error/1.0.0
+1138 verbose url resolving [ 'http://registry.npmjs.org/', './assertion-error/1.0.0' ]
+1139 verbose url resolved http://registry.npmjs.org/assertion-error/1.0.0
+1140 info trying registry request attempt 1 at 21:09:06
+1141 http GET http://registry.npmjs.org/assertion-error/1.0.0
+1142 verbose url raw bl
+1143 verbose url resolving [ 'http://registry.npmjs.org/', './bl' ]
+1144 verbose url resolved http://registry.npmjs.org/bl
+1145 info trying registry request attempt 1 at 21:09:06
+1146 http GET http://registry.npmjs.org/bl
+1147 verbose url raw bluebird
+1148 verbose url resolving [ 'http://registry.npmjs.org/', './bluebird' ]
+1149 verbose url resolved http://registry.npmjs.org/bluebird
+1150 info trying registry request attempt 1 at 21:09:06
+1151 http GET http://registry.npmjs.org/bluebird
+1152 verbose url raw joi
+1153 verbose url resolving [ 'http://registry.npmjs.org/', './joi' ]
+1154 verbose url resolved http://registry.npmjs.org/joi
+1155 info trying registry request attempt 1 at 21:09:06
+1156 http GET http://registry.npmjs.org/joi
+1157 verbose url raw definition-header
+1158 verbose url resolving [ 'http://registry.npmjs.org/', './definition-header' ]
+1159 verbose url resolved http://registry.npmjs.org/definition-header
+1160 info trying registry request attempt 1 at 21:09:06
+1161 http GET http://registry.npmjs.org/definition-header
+1162 verbose url raw detect-indent
+1163 verbose url resolving [ 'http://registry.npmjs.org/', './detect-indent' ]
+1164 verbose url resolved http://registry.npmjs.org/detect-indent
+1165 info trying registry request attempt 1 at 21:09:06
+1166 http GET http://registry.npmjs.org/detect-indent
+1167 verbose url raw exit
+1168 verbose url resolving [ 'http://registry.npmjs.org/', './exit' ]
+1169 verbose url resolved http://registry.npmjs.org/exit
+1170 info trying registry request attempt 1 at 21:09:06
+1171 http GET http://registry.npmjs.org/exit
+1172 verbose url raw joi-assert/0.0.3
+1173 verbose url resolving [ 'http://registry.npmjs.org/', './joi-assert/0.0.3' ]
+1174 verbose url resolved http://registry.npmjs.org/joi-assert/0.0.3
+1175 info trying registry request attempt 1 at 21:09:06
+1176 http GET http://registry.npmjs.org/joi-assert/0.0.3
+1177 verbose url raw deep-freeze/0.0.1
+1178 verbose url resolving [ 'http://registry.npmjs.org/', './deep-freeze/0.0.1' ]
+1179 verbose url resolved http://registry.npmjs.org/deep-freeze/0.0.1
+1180 info trying registry request attempt 1 at 21:09:06
+1181 http GET http://registry.npmjs.org/deep-freeze/0.0.1
+1182 verbose url raw event-stream
+1183 verbose url resolving [ 'http://registry.npmjs.org/', './event-stream' ]
+1184 verbose url resolved http://registry.npmjs.org/event-stream
+1185 info trying registry request attempt 1 at 21:09:06
+1186 http GET http://registry.npmjs.org/event-stream
+1187 verbose url raw json-pointer
+1188 verbose url resolving [ 'http://registry.npmjs.org/', './json-pointer' ]
+1189 verbose url resolved http://registry.npmjs.org/json-pointer
+1190 info trying registry request attempt 1 at 21:09:06
+1191 http GET http://registry.npmjs.org/json-pointer
+1192 verbose url raw colors
+1193 verbose url resolving [ 'http://registry.npmjs.org/', './colors' ]
+1194 verbose url resolved http://registry.npmjs.org/colors
+1195 info trying registry request attempt 1 at 21:09:06
+1196 http GET http://registry.npmjs.org/colors
+1197 verbose url raw lazy.js
+1198 verbose url resolving [ 'http://registry.npmjs.org/', './lazy.js' ]
+1199 verbose url resolved http://registry.npmjs.org/lazy.js
+1200 info trying registry request attempt 1 at 21:09:06
+1201 http GET http://registry.npmjs.org/lazy.js
+1202 verbose url raw jsesc
+1203 verbose url resolving [ 'http://registry.npmjs.org/', './jsesc' ]
+1204 verbose url resolved http://registry.npmjs.org/jsesc
+1205 info trying registry request attempt 1 at 21:09:06
+1206 http GET http://registry.npmjs.org/jsesc
+1207 verbose url raw diff
+1208 verbose url resolving [ 'http://registry.npmjs.org/', './diff' ]
+1209 verbose url resolved http://registry.npmjs.org/diff
+1210 info trying registry request attempt 1 at 21:09:06
+1211 http GET http://registry.npmjs.org/diff
+1212 verbose url raw minimist
+1213 verbose url resolving [ 'http://registry.npmjs.org/', './minimist' ]
+1214 verbose url resolved http://registry.npmjs.org/minimist
+1215 info trying registry request attempt 1 at 21:09:06
+1216 http GET http://registry.npmjs.org/minimist
+1217 verbose url raw ministyle
+1218 verbose url resolving [ 'http://registry.npmjs.org/', './ministyle' ]
+1219 verbose url resolved http://registry.npmjs.org/ministyle
+1220 info trying registry request attempt 1 at 21:09:06
+1221 http GET http://registry.npmjs.org/ministyle
+1222 verbose url raw minitable/0.0.4
+1223 verbose url resolving [ 'http://registry.npmjs.org/', './minitable/0.0.4' ]
+1224 verbose url resolved http://registry.npmjs.org/minitable/0.0.4
+1225 info trying registry request attempt 1 at 21:09:06
+1226 http GET http://registry.npmjs.org/minitable/0.0.4
+1227 verbose url raw miniwrite
+1228 verbose url resolving [ 'http://registry.npmjs.org/', './miniwrite' ]
+1229 verbose url resolved http://registry.npmjs.org/miniwrite
+1230 info trying registry request attempt 1 at 21:09:06
+1231 http GET http://registry.npmjs.org/miniwrite
+1232 verbose url raw mkdirp
+1233 verbose url resolving [ 'http://registry.npmjs.org/', './mkdirp' ]
+1234 verbose url resolved http://registry.npmjs.org/mkdirp
+1235 info trying registry request attempt 1 at 21:09:06
+1236 http GET http://registry.npmjs.org/mkdirp
+1237 verbose url raw open
+1238 verbose url resolving [ 'http://registry.npmjs.org/', './open' ]
+1239 verbose url resolved http://registry.npmjs.org/open
+1240 info trying registry request attempt 1 at 21:09:06
+1241 http GET http://registry.npmjs.org/open
+1242 verbose url raw rimraf
+1243 verbose url resolving [ 'http://registry.npmjs.org/', './rimraf' ]
+1244 verbose url resolved http://registry.npmjs.org/rimraf
+1245 info trying registry request attempt 1 at 21:09:06
+1246 http GET http://registry.npmjs.org/rimraf
+1247 verbose url raw semver
+1248 verbose url resolving [ 'http://registry.npmjs.org/', './semver' ]
+1249 verbose url resolved http://registry.npmjs.org/semver
+1250 info trying registry request attempt 1 at 21:09:06
+1251 http GET http://registry.npmjs.org/semver
+1252 verbose url raw type-detect
+1253 verbose url resolving [ 'http://registry.npmjs.org/', './type-detect' ]
+1254 verbose url resolved http://registry.npmjs.org/type-detect
+1255 info trying registry request attempt 1 at 21:09:06
+1256 http GET http://registry.npmjs.org/type-detect
+1257 verbose url raw request
+1258 verbose url resolving [ 'http://registry.npmjs.org/', './request' ]
+1259 verbose url resolved http://registry.npmjs.org/request
+1260 info trying registry request attempt 1 at 21:09:06
+1261 http GET http://registry.npmjs.org/request
+1262 verbose url raw update-notifier
+1263 verbose url resolving [ 'http://registry.npmjs.org/', './update-notifier' ]
+1264 verbose url resolved http://registry.npmjs.org/update-notifier
+1265 info trying registry request attempt 1 at 21:09:06
+1266 http GET http://registry.npmjs.org/update-notifier
+1267 verbose url raw uri-templates
+1268 verbose url resolving [ 'http://registry.npmjs.org/', './uri-templates' ]
+1269 verbose url resolved http://registry.npmjs.org/uri-templates
+1270 info trying registry request attempt 1 at 21:09:06
+1271 http GET http://registry.npmjs.org/uri-templates
+1272 info addNameTag [ 'uuid', '^2.0.1' ]
+1273 silly addNameRange { name: 'verror', range: '>=1.4.0- <1.5.0-', hasData: false }
+1274 silly addNameRange { name: 'universal-analytics',
+1274 silly addNameRange   range: '>=0.3.4- <0.4.0-',
+1274 silly addNameRange   hasData: false }
+1275 verbose url raw uuid
+1276 verbose url resolving [ 'http://registry.npmjs.org/', './uuid' ]
+1277 verbose url resolved http://registry.npmjs.org/uuid
+1278 info trying registry request attempt 1 at 21:09:06
+1279 http GET http://registry.npmjs.org/uuid
+1280 verbose url raw verror
+1281 verbose url resolving [ 'http://registry.npmjs.org/', './verror' ]
+1282 verbose url resolved http://registry.npmjs.org/verror
+1283 info trying registry request attempt 1 at 21:09:06
+1284 http GET http://registry.npmjs.org/verror
+1285 verbose url raw universal-analytics
+1286 verbose url resolving [ 'http://registry.npmjs.org/', './universal-analytics' ]
+1287 verbose url resolved http://registry.npmjs.org/universal-analytics
+1288 info trying registry request attempt 1 at 21:09:06
+1289 http GET http://registry.npmjs.org/universal-analytics
+1290 verbose url raw minimatch
+1291 verbose url resolving [ 'http://registry.npmjs.org/', './minimatch' ]
+1292 verbose url resolved http://registry.npmjs.org/minimatch
+1293 info trying registry request attempt 1 at 21:09:06
+1294 verbose etag "CPBU8NFMHYK68CZEXTEYQYBR"
+1295 http GET http://registry.npmjs.org/minimatch
+1296 http 200 http://registry.npmjs.org/assertion-error/1.0.0
+1297 silly registry.get cb [ 200,
+1297 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1297 silly registry.get     etag: '"24FGJ5E43YUU76OMKWEHAIZNF"',
+1297 silly registry.get     'content-type': 'application/json',
+1297 silly registry.get     'cache-control': 'max-age=60',
+1297 silly registry.get     'content-length': '957',
+1297 silly registry.get     'accept-ranges': 'bytes',
+1297 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1297 silly registry.get     via: '1.1 varnish',
+1297 silly registry.get     age: '0',
+1297 silly registry.get     connection: 'keep-alive',
+1297 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1297 silly registry.get     'x-cache': 'HIT',
+1297 silly registry.get     'x-cache-hits': '1',
+1297 silly registry.get     'x-timer': 'S1446430145.803195,VS0,VE19',
+1297 silly registry.get     vary: 'Accept' } ]
+1298 http 200 http://registry.npmjs.org/bl
+1299 silly registry.get cb [ 200,
+1299 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1299 silly registry.get     etag: '"8K8H4U615ORZNIN1X21LSYGQ6"',
+1299 silly registry.get     'content-type': 'application/json',
+1299 silly registry.get     'cache-control': 'max-age=60',
+1299 silly registry.get     'content-length': '33475',
+1299 silly registry.get     'accept-ranges': 'bytes',
+1299 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1299 silly registry.get     via: '1.1 varnish',
+1299 silly registry.get     age: '29',
+1299 silly registry.get     connection: 'keep-alive',
+1299 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1299 silly registry.get     'x-cache': 'HIT',
+1299 silly registry.get     'x-cache-hits': '44',
+1299 silly registry.get     'x-timer': 'S1446430145.800982,VS0,VE0',
+1299 silly registry.get     vary: 'Accept' } ]
+1300 verbose url raw chalk
+1301 verbose url resolving [ 'http://registry.npmjs.org/', './chalk' ]
+1302 verbose url resolved http://registry.npmjs.org/chalk
+1303 info trying registry request attempt 1 at 21:09:06
+1304 verbose etag "4XJAGHTKFDF5F9304Z7VV4QV3"
+1305 http GET http://registry.npmjs.org/chalk
+1306 verbose url raw glob
+1307 verbose url resolving [ 'http://registry.npmjs.org/', './glob' ]
+1308 verbose url resolved http://registry.npmjs.org/glob
+1309 info trying registry request attempt 1 at 21:09:06
+1310 verbose etag "6HDIWTKFDB05WEPWBMXZFQETL"
+1311 http GET http://registry.npmjs.org/glob
+1312 verbose url raw lru-cache
+1313 verbose url resolving [ 'http://registry.npmjs.org/', './lru-cache' ]
+1314 verbose url resolved http://registry.npmjs.org/lru-cache
+1315 info trying registry request attempt 1 at 21:09:06
+1316 verbose etag "8FG71A0GENBGO2H9IVT4WXMV3"
+1317 http GET http://registry.npmjs.org/lru-cache
+1318 silly lockFile cd4f70ce--error-assertion-error-1-0-0-tgz http://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz
+1319 verbose lock http://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz C:\Users\Pramod\AppData\Roaming\npm-cache\cd4f70ce--error-assertion-error-1-0-0-tgz.lock
+1320 silly lockFile 505cf248-bl-0-9-3 bl@^0.9.3
+1321 silly lockFile 505cf248-bl-0-9-3 bl@^0.9.3
+1322 verbose addRemoteTarball [ 'http://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz',
+1322 verbose addRemoteTarball   'c7f85438fdd466bc7ca16ab90c81513797a5d23b' ]
+1323 verbose about to build C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd
+1324 info C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd unbuild
+1325 verbose from cache C:\Users\Pramod\AppData\Roaming\npm\node_modules\tsd\package.json
+1326 info preuninstall tsd@0.6.5
+1327 info retry fetch attempt 1 at 21:09:06
+1328 verbose fetch to= C:\Users\Pramod\AppData\Local\Temp\npm-19892\1446430146379-0.9545379974879324\tmp.tgz
+1329 info uninstall tsd@0.6.5
+1330 http GET http://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz
+1331 verbose true,C:\Users\Pramod\AppData\Roaming\npm\node_modules,C:\Users\Pramod\AppData\Roaming\npm\node_modules unbuild tsd@0.6.5
+1332 verbose C:\Users\Pramod\AppData\Roaming\npm,[object Object] binRoot
+1333 info postuninstall tsd@0.6.5
+1334 http 200 http://registry.npmjs.org/exit
+1335 silly registry.get cb [ 200,
+1335 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1335 silly registry.get     etag: '"66GA3RUQR76WJVRZF6ITVOZPO"',
+1335 silly registry.get     'content-type': 'application/json',
+1335 silly registry.get     'cache-control': 'max-age=60',
+1335 silly registry.get     'content-length': '13803',
+1335 silly registry.get     'accept-ranges': 'bytes',
+1335 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1335 silly registry.get     via: '1.1 varnish',
+1335 silly registry.get     age: '29',
+1335 silly registry.get     connection: 'keep-alive',
+1335 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1335 silly registry.get     'x-cache': 'HIT',
+1335 silly registry.get     'x-cache-hits': '27',
+1335 silly registry.get     'x-timer': 'S1446430145.890810,VS0,VE0',
+1335 silly registry.get     vary: 'Accept' } ]
+1336 http 200 http://registry.npmjs.org/definition-header
+1337 silly registry.get cb [ 200,
+1337 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1337 silly registry.get     etag: '"31QE2QVWMEDRYQSKZ3R12FXB6"',
+1337 silly registry.get     'content-type': 'application/json',
+1337 silly registry.get     'cache-control': 'max-age=60',
+1337 silly registry.get     'content-length': '8240',
+1337 silly registry.get     'accept-ranges': 'bytes',
+1337 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1337 silly registry.get     via: '1.1 varnish',
+1337 silly registry.get     age: '0',
+1337 silly registry.get     connection: 'keep-alive',
+1337 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1337 silly registry.get     'x-cache': 'MISS',
+1337 silly registry.get     'x-cache-hits': '0',
+1337 silly registry.get     'x-timer': 'S1446430145.800398,VS0,VE91',
+1337 silly registry.get     vary: 'Accept' } ]
+1338 http 200 http://registry.npmjs.org/detect-indent
+1339 silly registry.get cb [ 200,
+1339 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1339 silly registry.get     etag: '"DNMVUWE871W9UFSFGHK453YAR"',
+1339 silly registry.get     'content-type': 'application/json',
+1339 silly registry.get     'cache-control': 'max-age=60',
+1339 silly registry.get     'content-length': '18428',
+1339 silly registry.get     'accept-ranges': 'bytes',
+1339 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1339 silly registry.get     via: '1.1 varnish',
+1339 silly registry.get     age: '56',
+1339 silly registry.get     connection: 'keep-alive',
+1339 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1339 silly registry.get     'x-cache': 'HIT',
+1339 silly registry.get     'x-cache-hits': '1',
+1339 silly registry.get     'x-timer': 'S1446430145.889887,VS0,VE0',
+1339 silly registry.get     vary: 'Accept' } ]
+1340 silly addNameRange number 2 { name: 'exit', range: '>=0.1.2- <0.2.0-', hasData: true }
+1341 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+1342 verbose addNamed [ 'exit', '0.1.2' ]
+1343 verbose addNamed [ '0.1.2', '0.1.2' ]
+1344 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+1345 verbose lock exit@0.1.2 C:\Users\Pramod\AppData\Roaming\npm-cache\7dd65db3-exit-0-1-2.lock
+1346 silly addNameRange number 2 { name: 'definition-header',
+1346 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+1346 silly addNameRange   hasData: true }
+1347 silly addNameRange versions [ 'definition-header', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+1348 verbose addNamed [ 'definition-header', '0.1.0' ]
+1349 verbose addNamed [ '0.1.0', '0.1.0' ]
+1350 silly lockFile 3545d410-definition-header-0-1-0 definition-header@0.1.0
+1351 verbose lock definition-header@0.1.0 C:\Users\Pramod\AppData\Roaming\npm-cache\3545d410-definition-header-0-1-0.lock
+1352 verbose read json C:\Users\Pramod\AppData\Roaming\npm-cache\exit\0.1.2\package\package.json
+1353 verbose read json C:\Users\Pramod\AppData\Roaming\npm-cache\definition-header\0.1.0\package\package.json
+1354 silly lockFile d7d33610-detect-indent-0-2-0 detect-indent@^0.2.0
+1355 silly lockFile d7d33610-detect-indent-0-2-0 detect-indent@^0.2.0
+1356 http 200 http://registry.npmjs.org/joi-assert/0.0.3
+1357 silly registry.get cb [ 200,
+1357 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1357 silly registry.get     etag: '"CTO0YFR4Z1UZKMEZQ5VWQHNS7"',
+1357 silly registry.get     'content-type': 'application/json',
+1357 silly registry.get     'cache-control': 'max-age=60',
+1357 silly registry.get     'content-length': '1222',
+1357 silly registry.get     'accept-ranges': 'bytes',
+1357 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:06 GMT',
+1357 silly registry.get     via: '1.1 varnish',
+1357 silly registry.get     age: '0',
+1357 silly registry.get     connection: 'keep-alive',
+1357 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1357 silly registry.get     'x-cache': 'MISS',
+1357 silly registry.get     'x-cache-hits': '0',
+1357 silly registry.get     'x-timer': 'S1446430146.018766,VS0,VE19',
+1357 silly registry.get     vary: 'Accept' } ]
+1358 http 200 http://registry.npmjs.org/joi
+1359 silly registry.get cb [ 200,
+1359 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1359 silly registry.get     etag: '"5TZZSS20911GJ6HHCN5KSR0EM"',
+1359 silly registry.get     'content-type': 'application/json',
+1359 silly registry.get     'cache-control': 'max-age=60',
+1359 silly registry.get     'content-length': '121717',
+1359 silly registry.get     'accept-ranges': 'bytes',
+1359 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1359 silly registry.get     via: '1.1 varnish',
+1359 silly registry.get     age: '0',
+1359 silly registry.get     connection: 'keep-alive',
+1359 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+1359 silly registry.get     'x-cache': 'HIT',
+1359 silly registry.get     'x-cache-hits': '1',
+1359 silly registry.get     'x-timer': 'S1446430145.804635,VS0,VE79',
+1359 silly registry.get     vary: 'Accept' } ]
+1360 http 200 http://registry.npmjs.org/deep-freeze/0.0.1
+1361 silly registry.get cb [ 200,
+1361 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1361 silly registry.get     etag: '"BNXSPY61IIZ6Y4FQ2MAD3L4MC"',
+1361 silly registry.get     'content-type': 'application/json',
+1361 silly registry.get     'cache-control': 'max-age=60',
+1361 silly registry.get     'content-length': '779',
+1361 silly registry.get     'accept-ranges': 'bytes',
+1361 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:06 GMT',
+1361 silly registry.get     via: '1.1 varnish',
+1361 silly registry.get     age: '0',
+1361 silly registry.get     connection: 'keep-alive',
+1361 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1361 silly registry.get     'x-cache': 'MISS',
+1361 silly registry.get     'x-cache-hits': '0',
+1361 silly registry.get     'x-timer': 'S1446430146.018855,VS0,VE19',
+1361 silly registry.get     vary: 'Accept' } ]
+1362 http 200 http://registry.npmjs.org/bluebird
+1363 silly registry.get cb [ 200,
+1363 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1363 silly registry.get     etag: '"ANXDMJLAD50W6Q6NO50JRUZ0C"',
+1363 silly registry.get     'content-type': 'application/json',
+1363 silly registry.get     'cache-control': 'max-age=60',
+1363 silly registry.get     'content-length': '329158',
+1363 silly registry.get     'accept-ranges': 'bytes',
+1363 silly registry.get     date: 'Mon, 02 Nov 2015 02:09:05 GMT',
+1363 silly registry.get     via: '1.1 varnish',
+1363 silly registry.get     age: '5',
+1363 silly registry.get     connection: 'keep-alive',
+1363 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1363 silly registry.get     'x-cache': 'HIT',
+1363 silly registry.get     'x-cache-hits': '1',
+1363 silly registry.get     'x-timer': 'S1446430145.807806,VS0,VE4',
+1363 silly registry.get     vary: 'Accept' } ]
+1364 error Error: No compatible version found: bl@'^0.9.3'
+1364 error Valid install targets:
+1364 error ["0.0.0","0.1.0","0.1.1","0.2.0","0.3.0","0.4.0","0.4.1","0.4.2","0.5.0","0.6.0","0.7.0","0.8.0","0.8.1","0.8.2","0.9.0","0.9.1","0.9.2","0.9.3","0.9.4","1.0.0"]
+1364 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:685:10)
+1364 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:607:10
+1364 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+1364 error     at Object.oncomplete (fs.js:107:15)
+1365 error If you need help, you may report this log at:
+1365 error     <http://github.com/isaacs/npm/issues>
+1365 error or email it to:
+1365 error     <npm-@googlegroups.com>
+1366 error System Windows_NT 6.1.7601
+1367 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tsd" "-g"
+1368 error cwd E:\GitHub\react-tsx-sample
+1369 error node -v v0.10.4
+1370 error npm -v 1.2.18
+1371 verbose exit [ 1, true ]
