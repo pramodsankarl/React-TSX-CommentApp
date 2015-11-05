@@ -1,9 +1,10 @@
 # Node Files #
 node_modules
+#Editor#
+.vscode
 
 # App Files #
 src/*.js
 src/*.js.map
 *.js.map
 *.js
-.vscode
