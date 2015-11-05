@@ -1,6 +1,6 @@
 # Node Files #
 node_modules
-#Editor#
+# Editor #
 .vscode
 
 # App Files #
@@ -8,3 +8,4 @@ src/*.js
 src/*.js.map
 *.js.map
 *.js
+!scripts/require.js
