@@ -8,3 +8,4 @@ tasks.json
 *.js.map
 *.js
 !/scripts/require.js
+comments.json
