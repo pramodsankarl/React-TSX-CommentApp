@@ -10,7 +10,8 @@ define(["require", "exports", './Comment'], function (require, exports, Comment_
             _super.call(this);
         }
         CommentList.prototype.render = function () {
-            return (React.createElement("div", {"className": "commentList"}, "Hello, world!I am a CommentList.", React.createElement(Comment_1.Comment, {"author": "Pete Hunt"}, "This is Comment1"), React.createElement(Comment_1.Comment, {"author": "Jordan Walke"}, "This is Comment2")));
+            var commentNodes = this.props.data.map(function (comment) { return (React.createElement(Comment_1.Comment, {"author": comment.author}, comment.text)); });
+            return (React.createElement("div", {"className": "commentList"}, commentNodes));
         };
         return CommentList;
     })(React.Component);

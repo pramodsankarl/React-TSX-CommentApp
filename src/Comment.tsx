@@ -11,7 +11,7 @@ class Comment extends React.Component<CommentProp, any> {
 		super();
 	}
 
-	rawMarkup() {
+	private rawMarkup() {
 		var rawMarkup = marked(this.props.children.toString(), { sanitize: true });
 		return { __html: rawMarkup };
 	}

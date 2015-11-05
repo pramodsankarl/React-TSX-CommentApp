@@ -1,20 +1,33 @@
 /// <reference path="../typings/react/react-global.d.ts" />
 import {Comment} from './Comment';
 
-class CommentList extends React.Component<any, any>{
+interface CommentData{
+	author:string;
+	text: string;
+}
+
+interface CommentListProps extends React.Props<CommentList>{
+	data: CommentData[];
+}
+
+class CommentList extends React.Component<CommentListProps, any>{
 	constructor() {
 		super();
 	}
 
 	render() {
+		let commentNodes = this.props.data.map((comment)=>(
+			<Comment author={comment.author}>
+			  {comment.text}
+			 </Comment>
+		));
+		
 		return (<div className="commentList">
-			Hello, world!I am a CommentList.
-			<Comment author="Pete Hunt">This is Comment1</Comment>
-			<Comment author="Jordan Walke">This is Comment2</Comment>
+			{commentNodes}
 			</div>
 		);
 	}
 }
 
-export {CommentList}
+export {CommentList, CommentData}
 

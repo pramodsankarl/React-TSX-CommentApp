@@ -1,2 +1,9 @@
 # Node Files #
 node_modules
+
+# App Files #
+src/*.js
+src/*.js.map
+*.js.map
+*.js
+.vscode
